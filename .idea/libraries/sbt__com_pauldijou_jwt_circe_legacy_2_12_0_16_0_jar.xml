@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.pauldijou:jwt-circe-legacy_2.12:0.16.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.pauldijou/jwt-circe-legacy_2.12/jars/jwt-circe-legacy_2.12-0.16.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.pauldijou/jwt-circe-legacy_2.12/srcs/jwt-circe-legacy_2.12-0.16.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

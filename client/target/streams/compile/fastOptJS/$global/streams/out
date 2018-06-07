@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/client-fastopt.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 106500 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 32741 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 141508 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: false[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 14355 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 10 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 10185 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 27723 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 67971 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 4970 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 73159 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 424 -- invalidated: 2[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 528 -- invalidated: 6[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 41741 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 6 -- invalidated: 2 -- trees read: 2[0m

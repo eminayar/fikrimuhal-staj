@@ -1,7 +1,6 @@
+
 name := "fikrimuhal-staj"
-
 version := "0.1"
-
 scalaVersion := "2.12.6"
 
 libraryDependencies ++= {
@@ -18,3 +17,16 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-generic",
   "io.circe" %% "circe-parser"
 ).map(_ % circeVersion)
+
+libraryDependencies ++= Seq(
+  "com.pauldijou" %% "jwt-circe-legacy" % "0.16.0"
+)
+
+
+val client = project
+  .enablePlugins(ScalaJSPlugin)
+  .settings(
+    name := "client",
+    scalaVersion := "2.12.2",
+    scalaJSUseMainModuleInitializer := true
+  )

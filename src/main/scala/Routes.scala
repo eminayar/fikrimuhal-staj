@@ -19,6 +19,7 @@ import io.circe.generic.semiauto.deriveEncoder
 import io.circe.syntax._
 
 import scala.concurrent.duration._
+import scala.io.Source
 
 trait Routes {
   implicit def system: ActorSystem
@@ -52,6 +53,25 @@ trait Routes {
                 complete((StatusCodes.Created,performed.toString))
               }
             }
+          }
+        }
+      },
+      pathPrefix( "login" ) {
+        pathEnd {
+          get {
+            parameters('username.as[String], 'password.as[String]) { (username, password) =>
+              val loggedIn: Future[ActionPerformed] = (userActor ? Login(User(username, password))).mapTo[ActionPerformed]
+              onSuccess(loggedIn) { token =>
+                complete(token.description)
+              }
+            }
+          }
+        }
+      },
+      pathPrefix( "ping" ){
+        pathEnd{
+          get{
+            complete("pong")
           }
         }
       }

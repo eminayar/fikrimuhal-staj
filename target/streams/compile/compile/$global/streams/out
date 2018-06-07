@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:49:23: could not find implicit value for parameter um: akka.http.scaladsl.unmarshalling.FromRequestUnmarshaller[User][0m
-[0m[[0m[31merror[0m] [0m[0m            entity( as[User] ){ user =>[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:73:23: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : akka.http.scaladsl.server.Directive[(String,)][0m
+[0m[[0m[31merror[0m] [0m[0m required: akka.http.scaladsl.server.Route[0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  akka.http.scaladsl.server.RequestContext => scala.concurrent.Future[akka.http.scaladsl.server.RouteResult][0m
+[0m[[0m[31merror[0m] [0m[0m            parameters('token.as[String])[0m
 [0m[[0m[31merror[0m] [0m[0m                      ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

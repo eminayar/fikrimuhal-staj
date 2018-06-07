@@ -4,7 +4,7 @@
 		module="fikrimuhal-staj-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180606145645"
+		publication="20180607142339"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
@@ -40,5 +40,6 @@
 			<artifact name="global-plugins" type="src" ext="jar" conf="compile" e:classifier="sources"/>
 			<artifact name="global-plugins" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
 		</dependency>
+		<dependency org="org.scala-js" name="sbt-scalajs" rev="0.6.23" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
 	</dependencies>
 </ivy-module>

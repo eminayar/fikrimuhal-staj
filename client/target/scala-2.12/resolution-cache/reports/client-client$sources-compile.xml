@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="client"
+		module="client$sources"
+		revision="0.1.0-SNAPSHOT"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, phantom-js-jetty"
+		date="20180607142345"/>
+	<dependencies>
+		<module organisation="org.webjars" name="jquery">
+			<revision name="2.2.1" status="release" pubdate="20160224001448" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="MIT License" url="https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3754" time="0" location="/Users/eminayar/.ivy2/cache/org.webjars/jquery/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/jquery/2.2.1/jquery-2.2.1.pom"/>
+				<caller organisation="client" name="client$sources" conf="compile" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jquery" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3886" time="0" location="/Users/eminayar/.ivy2/cache/org.webjars/jquery/srcs/jquery-2.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/jquery/2.2.1/jquery-2.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.querki" name="jquery-facade_sjs0.6_2.12">
+			<revision name="1.2" status="release" pubdate="20171010235551" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.querki.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3261" time="0" location="/Users/eminayar/.ivy2/cache/org.querki/jquery-facade_sjs0.6_2.12/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/querki/jquery-facade_sjs0.6_2.12/1.2/jquery-facade_sjs0.6_2.12-1.2.pom"/>
+				<caller organisation="client" name="client$sources" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jquery-facade_sjs0.6_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24636" time="0" location="/Users/eminayar/.ivy2/cache/org.querki/jquery-facade_sjs0.6_2.12/srcs/jquery-facade_sjs0.6_2.12-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/querki/jquery-facade_sjs0.6_2.12/1.2/jquery-facade_sjs0.6_2.12-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.querki" name="querki-jsext_sjs0.6_2.12">
+			<revision name="0.8" status="release" pubdate="20161118155920" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.querki.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2967" time="0" location="/Users/eminayar/.ivy2/cache/org.querki/querki-jsext_sjs0.6_2.12/ivy-0.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/querki/querki-jsext_sjs0.6_2.12/0.8/querki-jsext_sjs0.6_2.12-0.8.pom"/>
+				<caller organisation="client" name="client$sources" conf="compile" rev="0.8" rev-constraint-default="0.8" rev-constraint-dynamic="0.8" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="querki-jsext_sjs0.6_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3178" time="0" location="/Users/eminayar/.ivy2/cache/org.querki/querki-jsext_sjs0.6_2.12/srcs/querki-jsext_sjs0.6_2.12-0.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/querki/querki-jsext_sjs0.6_2.12/0.8/querki-jsext_sjs0.6_2.12-0.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12">
+			<revision name="0.9.3" status="release" pubdate="20170701213730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2941" time="0" location="/Users/eminayar/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/ivy-0.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.3/scalajs-dom_sjs0.6_2.12-0.9.3.pom"/>
+				<caller organisation="client" name="client$sources" conf="compile" rev="0.9.3" rev-constraint-default="0.9.3" rev-constraint-dynamic="0.9.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalajs-dom_sjs0.6_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="216016" time="0" location="/Users/eminayar/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/srcs/scalajs-dom_sjs0.6_2.12-0.9.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.3/scalajs-dom_sjs0.6_2.12-0.9.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.2" status="release" pubdate="20170413111911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/eminayar/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.pom"/>
+				<caller organisation="client" name="client$sources" conf="compile" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="990185" time="0" location="/Users/eminayar/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-library_2.12">
+			<revision name="0.6.23" status="release" pubdate="20180516021208" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.23/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2996" time="0" location="/Users/eminayar/.ivy2/cache/org.scala-js/scalajs-library_2.12/ivy-0.6.23.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.23/scalajs-library_2.12-0.6.23.pom"/>
+				<caller organisation="client" name="client$sources" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.23/"/>
+				<artifacts>
+					<artifact name="scalajs-library_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="151996" time="0" location="/Users/eminayar/.ivy2/cache/org.scala-js/scalajs-library_2.12/srcs/scalajs-library_2.12-0.6.23-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.23/scalajs-library_2.12-0.6.23-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

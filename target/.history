@@ -13,18 +13,20 @@ run
 ~compile
 ~run
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
-~compile
+compile
 exit
-~compile
-run
-~compile
-run
-compile
-run
-compile
-run
-compile
-run
 compile
 run
 exit
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
+all {file:/Users/eminayar/Desktop/fikrimuhal-staj/}client/products {file:/Users/eminayar/Desktop/fikrimuhal-staj/}client/test:products
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
+reload
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
+project client
+compile
+run
+project client
+run
+project client
+run
