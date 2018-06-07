@@ -13,6 +13,7 @@ object WebServer extends App with Routes{
     implicit val executionContext = system.dispatcher
 
     val userActor: ActorRef = system.actorOf(UserActor.props, "userActor")
+    val quoteActor: ActorRef = system.actorOf(QuoteActor.props, "quoteActor")
 
     lazy val routes: Route = myRoutes
 

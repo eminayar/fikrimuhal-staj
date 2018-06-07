@@ -7,7 +7,7 @@ final case class User(username: String, password: String)
 final case class Users(users: Seq[User])
 
 object UserActor {
-  final case class ActionPerformed( description: String )
+  final case class UserActionPerformed( description: String )
   final case class CreateUser(user: User)
   final case object GetUsers
   final case class Login(user: User)
@@ -24,7 +24,7 @@ class UserActor extends Actor with ActorLogging{
 
     case CreateUser(user) =>
       users += user
-      sender ! ActionPerformed(s"User ${user.username} created.")
+      sender ! UserActionPerformed(s"User ${user.username} created.")
 
     case GetUsers =>
       sender ! Users(users.toSeq)
@@ -36,9 +36,9 @@ class UserActor extends Actor with ActorLogging{
           issuedAt = Some(Instant.now.getEpochSecond)
         )
         val token=JwtCirce.encode( claim , "topsecret" , JwtAlgorithm.HS256 )
-        sender ! ActionPerformed(token)
+        sender ! UserActionPerformed(token)
       }else{
-        sender ! ActionPerformed(s"invalid credentials")
+        sender ! UserActionPerformed(s"invalid credentials")
       }
 
   }

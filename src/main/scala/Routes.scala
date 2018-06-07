@@ -1,7 +1,8 @@
 import UserActor._
+import QuoteActor._
 import akka.actor.{ActorRef, ActorSystem}
 import akka.event.Logging
-import akka.http.scaladsl.model.{ContentTypes, HttpEntity, StatusCodes}
+import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Route
 import akka.http.scaladsl.server.directives.MethodDirectives.get
 import akka.http.scaladsl.server.directives.RouteDirectives.complete
@@ -17,6 +18,7 @@ import io.circe.generic.auto._
 import io.circe.generic.semiauto.deriveDecoder
 import io.circe.generic.semiauto.deriveEncoder
 import io.circe.syntax._
+import pdi.jwt.{JwtCirce, JwtAlgorithm, JwtClaim}
 
 import scala.concurrent.duration._
 import scala.io.Source
@@ -26,6 +28,7 @@ trait Routes {
   lazy val log = Logging(system, classOf[Routes] )
 
   def userActor: ActorRef
+  def quoteActor: ActorRef
 
   implicit val timeout: Timeout= Timeout( 2.second )
 
@@ -48,7 +51,7 @@ trait Routes {
         pathEnd {
           get {
             parameters('username.as[String] , 'password.as[String]) { (username,password) =>
-              val userCreated: Future[ActionPerformed] = (userActor ? CreateUser(User(username,password))).mapTo[ActionPerformed]
+              val userCreated: Future[UserActionPerformed] = (userActor ? CreateUser(User(username,password))).mapTo[UserActionPerformed]
               onSuccess(userCreated){ performed =>
                 complete((StatusCodes.Created,performed.toString))
               }
@@ -60,7 +63,7 @@ trait Routes {
         pathEnd {
           get {
             parameters('username.as[String], 'password.as[String]) { (username, password) =>
-              val loggedIn: Future[ActionPerformed] = (userActor ? Login(User(username, password))).mapTo[ActionPerformed]
+              val loggedIn: Future[UserActionPerformed] = (userActor ? Login(User(username, password))).mapTo[UserActionPerformed]
               onSuccess(loggedIn) { token =>
                 complete(token.description)
               }
@@ -69,9 +72,61 @@ trait Routes {
         }
       },
       pathPrefix( "ping" ){
-        pathEnd{
-          get{
-            complete("pong")
+        pathEnd {
+          get {
+            parameters('token.as[String]) { (token) =>
+              val decoded = JwtCirce.decode( token, "topsecret" , Seq(JwtAlgorithm.HS256) )
+              if( decoded.isFailure){
+                complete(StatusCodes.NotAcceptable)
+              }else {
+                val cur = System.currentTimeMillis()
+                complete(cur.toString)
+              }
+            }
+          }
+        }
+      },
+      pathPrefix( "createQuote" ){
+        pathEnd {
+          get {
+            parameters('token.as[String], 'quote.as[String] ) { (token,quote) =>
+              val decoded = JwtCirce.decode( token, "topsecret" , Seq(JwtAlgorithm.HS256) )
+              if( decoded.isFailure){
+                complete(StatusCodes.NotAcceptable)
+              }else {
+                val quoteCreated: Future[QuoteActionPerformed] = (quoteActor ? CreateQuote(quote) ).mapTo[QuoteActionPerformed]
+                onSuccess(quoteCreated){ performed =>
+                  complete((StatusCodes.Created,performed.toString))
+                }
+              }
+            }
+          }
+        }
+      },
+      pathPrefix("quotes") {
+        pathEnd {
+          get {
+            val quotes: Future[Quotes] = (quoteActor ? GetQuotes).mapTo[Quotes]
+            complete{
+              quotes.map(_.asJson.toString)
+            }
+          }
+        }
+      },
+      pathPrefix("eraseQuote") {
+        pathEnd {
+          get {
+            parameters('token.as[String], 'id.as[Int] ) { (token,id) =>
+              val decoded = JwtCirce.decode( token, "topsecret" , Seq(JwtAlgorithm.HS256) )
+              if( decoded.isFailure){
+                complete(StatusCodes.NotAcceptable)
+              }else {
+                val answer: Future[QuoteActionPerformed] = (quoteActor ? EraseQuote(id) ).mapTo[QuoteActionPerformed]
+                onSuccess(answer){ performed =>
+                  complete((StatusCodes.OK,performed.toString))
+                }
+              }
+            }
           }
         }
       }
