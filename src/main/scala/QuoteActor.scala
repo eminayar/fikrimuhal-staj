@@ -1,6 +1,4 @@
 import akka.actor.{Actor, ActorLogging, Props}
-import java.time.Instant
-import pdi.jwt.{JwtCirce, JwtAlgorithm, JwtClaim}
 
 
 final case class Quote(id: Int, body: String)
@@ -11,6 +9,8 @@ object QuoteActor {
   final case class CreateQuote(body: String)
   final case object GetQuotes
   final case class EraseQuote(id: Int)
+  final case class ChangeQuote(id: Int, body: String)
+  final case object FeaturedQuote
 
   def props: Props = Props(new QuoteActor)
 }
@@ -18,8 +18,11 @@ object QuoteActor {
 class QuoteActor extends Actor with ActorLogging{
   import QuoteActor._
 
-  var quotes = Set.empty[Quote]
+  private var quotes = Set.empty[Quote]
   private var counter = 1
+
+  private var featuredQuote: Quote = Quote(0,"")
+  private var lastQuoteTime: Long = 0
 
   override def receive: Receive = {
 
@@ -35,12 +38,28 @@ class QuoteActor extends Actor with ActorLogging{
       if( quotes.find( q => q.id == id ).isEmpty ){
         sender ! QuoteActionPerformed(s"no such quote!")
       }else {
-        quotes -= Quote(id, _)
+        quotes=quotes.filter( q=> q.id != id )
         sender ! QuoteActionPerformed(s"successfull")
       }
 
+    case ChangeQuote(id,body) =>
+      if( quotes.find( q => q.id == id ).isEmpty ){
+        sender ! QuoteActionPerformed(s"no such quote!")
+      }else {
+        quotes=quotes.filter( q=> q.id != id )
+        quotes+=Quote( id , body )
+        sender ! QuoteActionPerformed(s"successfull")
+      }
 
-
+    case FeaturedQuote =>
+      val now=System.currentTimeMillis()
+      val rng=scala.util.Random
+      if( now - lastQuoteTime > 60000 ){
+        lastQuoteTime=now
+        val index= rng.nextInt(quotes.size)
+        featuredQuote=quotes.toSeq(index)
+      }
+      sender ! featuredQuote
   }
 
 }

@@ -38,8 +38,52 @@ object Main extends App{
   }
 
   @JSExport
+  def logout(): Unit = {
+    val f=Ajax.get(s"http://localhost:8080/logout?token=$token")
+    f.onComplete{
+      case Success(xhr) =>
+        println(xhr.responseText)
+      case Failure(e) =>
+        println("Error:"+e.toString)
+    }
+  }
+
+  @JSExport
   def createQuote(body: String): Unit ={
     val f = Ajax.get(s"http://localhost:8080/createQuote?token=$token&quote=$body")
+    f.onComplete{
+      case Success(xhr) =>
+        println(xhr.responseText)
+      case Failure(e) =>
+        println("not logged in!")
+    }
+  }
+
+  @JSExport
+  def eraseQuote(id: Int): Unit ={
+    val f = Ajax.get(s"http://localhost:8080/eraseQuote?token=$token&id=$id")
+    f.onComplete{
+      case Success(xhr) =>
+        println(xhr.responseText)
+      case Failure(e) =>
+        println("not logged in!")
+    }
+  }
+
+  @JSExport
+  def changeQuote(id: Int, body: String): Unit ={
+    val f = Ajax.get(s"http://localhost:8080/changeQuote?token=$token&id=$id&quote=$body")
+    f.onComplete{
+      case Success(xhr) =>
+        println(xhr.responseText)
+      case Failure(e) =>
+        println("not logged in!")
+    }
+  }
+
+  @JSExport
+  def featuredQuote(): Unit ={
+    val f = Ajax.get(s"http://localhost:8080/featuredQuote")
     f.onComplete{
       case Success(xhr) =>
         println(xhr.responseText)

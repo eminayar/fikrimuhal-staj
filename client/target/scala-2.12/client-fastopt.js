@@ -2583,12 +2583,12 @@ function $h_sjsr_RuntimeString$() {
   /*<skip>*/
 }
 $h_sjsr_RuntimeString$.prototype = $c_sjsr_RuntimeString$.prototype;
+$c_sjsr_RuntimeString$.prototype.init___ = (function() {
+  return this
+});
 $c_sjsr_RuntimeString$.prototype.indexOf__T__I__I__I = (function(thiz, ch, fromIndex) {
   var str = this.fromCodePoint__p1__I__T(ch);
   return $uI(thiz.indexOf(str, fromIndex))
-});
-$c_sjsr_RuntimeString$.prototype.init___ = (function() {
-  return this
 });
 $c_sjsr_RuntimeString$.prototype.indexOf__T__I__I = (function(thiz, ch) {
   var str = this.fromCodePoint__p1__I__T(ch);
@@ -3946,21 +3946,21 @@ $c_LMain$.prototype.createQuote__T__V = (function(body) {
   var headers = $m_sci_Map$EmptyMap$();
   var f = this$7.apply__T__T__Lorg_scalajs_dom_ext_Ajax$InputData__I__sci_Map__Z__T__s_concurrent_Future("GET", url, null, 0, headers, false, "");
   f.onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x0$3$2) {
-      var x0$3 = $as_s_util_Try(x0$3$2);
-      if ($is_s_util_Success(x0$3)) {
-        var x2 = $as_s_util_Success(x0$3);
+    return (function(x0$4$2) {
+      var x0$4 = $as_s_util_Try(x0$4$2);
+      if ($is_s_util_Success(x0$4)) {
+        var x2 = $as_s_util_Success(x0$4);
         var xhr = x2.value$2;
         var x = $as_T(xhr.responseText);
         var this$9 = $m_s_Console$();
         var this$10 = $as_Ljava_io_PrintStream(this$9.outVar$2.v$1);
         this$10.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"))
-      } else if ($is_s_util_Failure(x0$3)) {
+      } else if ($is_s_util_Failure(x0$4)) {
         var this$12 = $m_s_Console$();
         var this$13 = $as_Ljava_io_PrintStream(this$12.outVar$2.v$1);
         this$13.java$lang$JSConsoleBasedPrintStream$$printString__T__V("not logged in!\n")
       } else {
-        throw new $c_s_MatchError().init___O(x0$3)
+        throw new $c_s_MatchError().init___O(x0$4)
       }
     })
   })(this)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext())
@@ -3975,14 +3975,139 @@ $c_LMain$.prototype.init___ = (function() {
 $c_LMain$.prototype.$$js$exported$meth$ping__O = (function() {
   this.ping__V()
 });
+$c_LMain$.prototype.featuredQuote__V = (function() {
+  var this$5 = $m_Lorg_scalajs_dom_ext_Ajax$();
+  var array = ["http://localhost:8080/featuredQuote"];
+  var url = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array)).s__sc_Seq__T($m_sci_Nil$());
+  var headers = $m_sci_Map$EmptyMap$();
+  var f = this$5.apply__T__T__Lorg_scalajs_dom_ext_Ajax$InputData__I__sci_Map__Z__T__s_concurrent_Future("GET", url, null, 0, headers, false, "");
+  f.onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x0$7$2) {
+      var x0$7 = $as_s_util_Try(x0$7$2);
+      if ($is_s_util_Success(x0$7)) {
+        var x2 = $as_s_util_Success(x0$7);
+        var xhr = x2.value$2;
+        var x = $as_T(xhr.responseText);
+        var this$7 = $m_s_Console$();
+        var this$8 = $as_Ljava_io_PrintStream(this$7.outVar$2.v$1);
+        this$8.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"))
+      } else if ($is_s_util_Failure(x0$7)) {
+        var this$10 = $m_s_Console$();
+        var this$11 = $as_Ljava_io_PrintStream(this$10.outVar$2.v$1);
+        this$11.java$lang$JSConsoleBasedPrintStream$$printString__T__V("not logged in!\n")
+      } else {
+        throw new $c_s_MatchError().init___O(x0$7)
+      }
+    })
+  })(this)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext())
+});
+$c_LMain$.prototype.eraseQuote__I__V = (function(id) {
+  var this$7 = $m_Lorg_scalajs_dom_ext_Ajax$();
+  var array = ["http://localhost:8080/eraseQuote?token=", "&id=", ""];
+  var jsx$1 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  var array$1 = [this.token$1, id];
+  var url = jsx$1.s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+  var headers = $m_sci_Map$EmptyMap$();
+  var f = this$7.apply__T__T__Lorg_scalajs_dom_ext_Ajax$InputData__I__sci_Map__Z__T__s_concurrent_Future("GET", url, null, 0, headers, false, "");
+  f.onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x0$5$2) {
+      var x0$5 = $as_s_util_Try(x0$5$2);
+      if ($is_s_util_Success(x0$5)) {
+        var x2 = $as_s_util_Success(x0$5);
+        var xhr = x2.value$2;
+        var x = $as_T(xhr.responseText);
+        var this$9 = $m_s_Console$();
+        var this$10 = $as_Ljava_io_PrintStream(this$9.outVar$2.v$1);
+        this$10.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"))
+      } else if ($is_s_util_Failure(x0$5)) {
+        var this$12 = $m_s_Console$();
+        var this$13 = $as_Ljava_io_PrintStream(this$12.outVar$2.v$1);
+        this$13.java$lang$JSConsoleBasedPrintStream$$printString__T__V("not logged in!\n")
+      } else {
+        throw new $c_s_MatchError().init___O(x0$5)
+      }
+    })
+  })(this)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext())
+});
+$c_LMain$.prototype.$$js$exported$meth$featuredQuote__O = (function() {
+  this.featuredQuote__V()
+});
+$c_LMain$.prototype.$$js$exported$meth$eraseQuote__I__O = (function(id) {
+  this.eraseQuote__I__V(id)
+});
 $c_LMain$.prototype.$$js$exported$meth$createQuote__T__O = (function(body) {
   this.createQuote__T__V(body)
+});
+$c_LMain$.prototype.changeQuote__I__T__V = (function(id, body) {
+  var this$7 = $m_Lorg_scalajs_dom_ext_Ajax$();
+  var array = ["http://localhost:8080/changeQuote?token=", "&id=", "&quote=", ""];
+  var jsx$1 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  var array$1 = [this.token$1, id, body];
+  var url = jsx$1.s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+  var headers = $m_sci_Map$EmptyMap$();
+  var f = this$7.apply__T__T__Lorg_scalajs_dom_ext_Ajax$InputData__I__sci_Map__Z__T__s_concurrent_Future("GET", url, null, 0, headers, false, "");
+  f.onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x0$6$2) {
+      var x0$6 = $as_s_util_Try(x0$6$2);
+      if ($is_s_util_Success(x0$6)) {
+        var x2 = $as_s_util_Success(x0$6);
+        var xhr = x2.value$2;
+        var x = $as_T(xhr.responseText);
+        var this$9 = $m_s_Console$();
+        var this$10 = $as_Ljava_io_PrintStream(this$9.outVar$2.v$1);
+        this$10.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"))
+      } else if ($is_s_util_Failure(x0$6)) {
+        var this$12 = $m_s_Console$();
+        var this$13 = $as_Ljava_io_PrintStream(this$12.outVar$2.v$1);
+        this$13.java$lang$JSConsoleBasedPrintStream$$printString__T__V("not logged in!\n")
+      } else {
+        throw new $c_s_MatchError().init___O(x0$6)
+      }
+    })
+  })(this)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext())
 });
 $c_LMain$.prototype.$$js$exported$meth$login__T__T__O = (function(uname, passwd) {
   this.login__T__T__V(uname, passwd)
 });
 $c_LMain$.prototype.main__AT__V = (function(args) {
   $f_s_App__main__AT__V(this, args)
+});
+$c_LMain$.prototype.$$js$exported$meth$logout__O = (function() {
+  this.logout__V()
+});
+$c_LMain$.prototype.$$js$exported$meth$changeQuote__I__T__O = (function(id, body) {
+  this.changeQuote__I__T__V(id, body)
+});
+$c_LMain$.prototype.logout__V = (function() {
+  var this$7 = $m_Lorg_scalajs_dom_ext_Ajax$();
+  var array = ["http://localhost:8080/logout?token=", ""];
+  var jsx$1 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  var array$1 = [this.token$1];
+  var url = jsx$1.s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+  var headers = $m_sci_Map$EmptyMap$();
+  var f = this$7.apply__T__T__Lorg_scalajs_dom_ext_Ajax$InputData__I__sci_Map__Z__T__s_concurrent_Future("GET", url, null, 0, headers, false, "");
+  f.onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x0$3$2) {
+      var x0$3 = $as_s_util_Try(x0$3$2);
+      if ($is_s_util_Success(x0$3)) {
+        var x2 = $as_s_util_Success(x0$3);
+        var xhr = x2.value$2;
+        var x = $as_T(xhr.responseText);
+        var this$9 = $m_s_Console$();
+        var this$10 = $as_Ljava_io_PrintStream(this$9.outVar$2.v$1);
+        this$10.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"))
+      } else if ($is_s_util_Failure(x0$3)) {
+        var x3 = $as_s_util_Failure(x0$3);
+        var e = x3.exception$2;
+        var x$1 = ("Error:" + e.toString__T());
+        var this$12 = $m_s_Console$();
+        var this$13 = $as_Ljava_io_PrintStream(this$12.outVar$2.v$1);
+        this$13.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x$1 + "\n"))
+      } else {
+        throw new $c_s_MatchError().init___O(x0$3)
+      }
+    })
+  })(this)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext())
 });
 $c_LMain$.prototype.login__T__T__V = (function(uname, passwd) {
   var this$7 = $m_Lorg_scalajs_dom_ext_Ajax$();
@@ -4058,9 +4183,24 @@ $c_LMain$.prototype.ping__V = (function() {
 $c_LMain$.prototype.delayedEndpoint$Main$1__V = (function() {
   this.token$1 = ""
 });
+$c_LMain$.prototype.featuredQuote = (function() {
+  return this.$$js$exported$meth$featuredQuote__O()
+});
+$c_LMain$.prototype.changeQuote = (function(arg$1, arg$2) {
+  var prep0 = $uI(arg$1);
+  var prep1 = $as_T(arg$2);
+  return this.$$js$exported$meth$changeQuote__I__T__O(prep0, prep1)
+});
+$c_LMain$.prototype.eraseQuote = (function(arg$1) {
+  var prep0 = $uI(arg$1);
+  return this.$$js$exported$meth$eraseQuote__I__O(prep0)
+});
 $c_LMain$.prototype.createQuote = (function(arg$1) {
   var prep0 = $as_T(arg$1);
   return this.$$js$exported$meth$createQuote__T__O(prep0)
+});
+$c_LMain$.prototype.logout = (function() {
+  return this.$$js$exported$meth$logout__O()
 });
 $c_LMain$.prototype.login = (function(arg$1, arg$2) {
   var prep0 = $as_T(arg$1);
@@ -4639,11 +4779,6 @@ function $h_s_Predef$() {
   /*<skip>*/
 }
 $h_s_Predef$.prototype = $c_s_Predef$.prototype;
-$c_s_Predef$.prototype.assert__Z__V = (function(assertion) {
-  if ((!assertion)) {
-    throw new $c_jl_AssertionError().init___O("assertion failed")
-  }
-});
 $c_s_Predef$.prototype.init___ = (function() {
   $n_s_Predef$ = this;
   $m_s_package$();
@@ -4657,6 +4792,11 @@ $c_s_Predef$.prototype.init___ = (function() {
   this.singleton$und$less$colon$less$2 = new $c_s_Predef$$anon$1().init___();
   this.scala$Predef$$singleton$und$eq$colon$eq$f = new $c_s_Predef$$anon$2().init___();
   return this
+});
+$c_s_Predef$.prototype.assert__Z__V = (function(assertion) {
+  if ((!assertion)) {
+    throw new $c_jl_AssertionError().init___O("assertion failed")
+  }
 });
 $c_s_Predef$.prototype.require__Z__V = (function(requirement) {
   if ((!requirement)) {

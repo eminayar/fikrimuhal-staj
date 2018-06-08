@@ -4,7 +4,7 @@
 		module="fikrimuhal-staj-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180607142339"
+		publication="20180608121327"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

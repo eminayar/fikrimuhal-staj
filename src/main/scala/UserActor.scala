@@ -11,6 +11,7 @@ object UserActor {
   final case class CreateUser(user: User)
   final case object GetUsers
   final case class Login(user: User)
+  final case class Logout(token: String)
 
   def props: Props = Props(new UserActor)
 }
@@ -33,13 +34,17 @@ class UserActor extends Actor with ActorLogging{
       if ( users.contains( user ) ){
         val claim = JwtClaim(
           expiration = Some(Instant.now.plusSeconds(2700).getEpochSecond),
-          issuedAt = Some(Instant.now.getEpochSecond)
+          issuedAt = Some(Instant.now.getEpochSecond),
+          content = user.username
         )
         val token=JwtCirce.encode( claim , "topsecret" , JwtAlgorithm.HS256 )
         sender ! UserActionPerformed(token)
       }else{
         sender ! UserActionPerformed(s"invalid credentials")
       }
+
+    case Logout(token) =>
+      sender() ! UserActionPerformed(s"will be here!")
 
   }
 
