@@ -37,29 +37,12 @@ trait Routes {
   implicit val userDecoder: Decoder[User] = deriveDecoder
   implicit val userEncoder: Encoder[User] = deriveEncoder
 
-  private var activeTokens = Set.empty[String]
-
-  def isValid(token: String): Boolean = {
-    val decoded = JwtCirce.decode( token, secret , Seq(JwtAlgorithm.HS256) )
-    if( decoded.isFailure ){
-      logger.info("wtf")
-      false
-    }else{
-      if( decoded.get.expiration.get < Instant.now.getEpochSecond ){
-        logger.info("expiration:"+decoded.get.expiration.get.toString)
-        logger.info("now:"+Instant.now.getEpochSecond)
-        activeTokens=activeTokens.filter( st => st != token )
-      }
-      activeTokens.contains(token)
-    }
-  }
-
   lazy val myRoutes: Route =
     concat(
       pathPrefix("users") {
         pathEnd {
           get {
-            val users: Future[Users] = (userActor ? GetUsers).mapTo[Users]
+            val users: Future[List[User]] = (userActor ? GetUsers).mapTo[List[User]]
             complete{
               users.map(_.asJson.toString)
             }
@@ -70,9 +53,9 @@ trait Routes {
         pathEnd {
           get {
             parameters('username.as[String] , 'password.as[String]) { (username,password) =>
-              val userCreated: Future[UserActionPerformed] = (userActor ? CreateUser(User(username,password))).mapTo[UserActionPerformed]
+              val userCreated: Future[String] = (userActor ? CreateUser(User(username,password))).mapTo[String]
               onSuccess(userCreated){ performed =>
-                complete((StatusCodes.Created,performed.toString))
+                complete((StatusCodes.Created,performed))
               }
             }
           }
@@ -82,11 +65,9 @@ trait Routes {
         pathEnd {
           get {
             parameters('username.as[String], 'password.as[String]) { (username, password) =>
-              val loggedIn: Future[UserActionPerformed] = (userActor ? Login(User(username, password))).mapTo[UserActionPerformed]
+              val loggedIn: Future[String] = (userActor ? Login(User(username, password))).mapTo[String]
               onSuccess(loggedIn) { token =>
-                activeTokens+=token.description
-                logger.info(activeTokens.toSeq.toString())
-                complete(token.description)
+                complete(token)
               }
             }
           }
@@ -96,10 +77,9 @@ trait Routes {
         pathEnd {
           get {
             parameters('token.as[String] ) { (token) =>
-              activeTokens-=token
-              val loggedOut: Future[UserActionPerformed] = (userActor ? Logout(token)).mapTo[UserActionPerformed]
+              val loggedOut: Future[String] = (userActor ? Logout(token)).mapTo[String]
               onSuccess(loggedOut) { answer =>
-                complete(answer.description)
+                complete(answer)
               }
             }
           }
@@ -109,11 +89,14 @@ trait Routes {
         pathEnd {
           get {
             parameters('token.as[String]) { (token) =>
-              if( !isValid(token) ){
-                complete(StatusCodes.NotAcceptable)
-              }else {
-                val cur = System.currentTimeMillis()
-                complete(cur.toString)
+              val cur = System.currentTimeMillis()
+              val answer: Future[Boolean] = (userActor ? isValidToken(token)).mapTo[Boolean]
+              onSuccess(answer){ flag =>
+                if( flag ){
+                  complete(cur.toString)
+                }else{
+                  complete(StatusCodes.NotAcceptable)
+                }
               }
             }
           }
@@ -123,13 +106,14 @@ trait Routes {
         pathEnd {
           get {
             parameters('token.as[String], 'quote.as[String] ) { (token,quote) =>
-              if( !isValid(token) ){
-                complete(StatusCodes.NotAcceptable)
-              }else {
-                val quoteCreated: Future[QuoteActionPerformed] = (quoteActor ? CreateQuote(quote) ).mapTo[QuoteActionPerformed]
-                onSuccess(quoteCreated){ performed =>
-                  complete((StatusCodes.Created,performed.toString))
-                }
+              val isLoggedIn: Future[Boolean] = (userActor ? isValidToken(token)).mapTo[Boolean]
+              val quoteCreated = isLoggedIn map { ans =>
+                if (ans) (quoteActor ? CreateQuote(quote)).mapTo[QuoteActionPerformed]
+                else false
+              }
+              onSuccess(quoteCreated){ report =>
+                if( !report.equals(false) ) complete("created!")
+                else complete("not logged in!")
               }
             }
           }
@@ -138,7 +122,7 @@ trait Routes {
       pathPrefix("quotes") {
         pathEnd {
           get {
-            val quotes: Future[Quotes] = (quoteActor ? GetQuotes).mapTo[Quotes]
+            val quotes: Future[List[Quote]] = (quoteActor ? GetQuotes).mapTo[List[Quote]]
             complete{
               quotes.map(_.asJson.toString)
             }
@@ -149,13 +133,14 @@ trait Routes {
         pathEnd {
           get {
             parameters('token.as[String], 'id.as[Int] ) { (token,id) =>
-              if( !isValid(token) ){
-                complete(StatusCodes.NotAcceptable)
-              }else {
-                val quoteCreated: Future[QuoteActionPerformed] = (quoteActor ? EraseQuote(id) ).mapTo[QuoteActionPerformed]
-                onSuccess(quoteCreated){ performed =>
-                  complete((StatusCodes.OK,performed.toString))
-                }
+              val isLoggedIn: Future[Boolean] = (userActor ? isValidToken(token)).mapTo[Boolean]
+              val quoteErased = isLoggedIn map{ ans =>
+                if( ans ) (quoteActor ? EraseQuote(id) ).mapTo[QuoteActionPerformed]
+                else false
+              }
+              onSuccess(quoteErased){ report =>
+                if( !report.equals(false) ) complete("successfull")
+                else complete("not logged in!")
               }
             }
           }
@@ -165,13 +150,14 @@ trait Routes {
         pathEnd {
           get {
             parameters('token.as[String], 'id.as[Int] , 'quote.as[String]) { (token,id,quote) =>
-              if( !isValid(token) ){
-                complete(StatusCodes.NotAcceptable)
-              }else {
-                val quoteChanged: Future[QuoteActionPerformed] = (quoteActor ? ChangeQuote(id,quote) ).mapTo[QuoteActionPerformed]
-                onSuccess(quoteChanged){ performed =>
-                  complete((StatusCodes.OK,performed.toString))
-                }
+              val isLoggedIn: Future[Boolean] = (userActor ? isValidToken(token)).mapTo[Boolean]
+              val quoteErased = isLoggedIn map{ ans =>
+                if( ans ) (quoteActor ? ChangeQuote(id,quote) ).mapTo[QuoteActionPerformed]
+                else false
+              }
+              onSuccess(quoteErased){ report =>
+                if( !report.equals(false) ) complete("successfull")
+                else complete("not logged in!")
               }
             }
           }
@@ -187,6 +173,5 @@ trait Routes {
           }
         }
       }
-
     )
 }

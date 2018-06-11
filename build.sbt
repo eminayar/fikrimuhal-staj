@@ -22,6 +22,9 @@ libraryDependencies ++= Seq(
   "com.pauldijou" %% "jwt-circe-legacy" % "0.16.0"
 )
 
+libraryDependencies += "com.typesafe.akka" %% "akka-persistence" % "2.5.13"
+libraryDependencies += "org.fusesource.leveldbjni" % "leveldbjni-all" % "1.8"
+
 
 val client = project
   .enablePlugins(ScalaJSPlugin)

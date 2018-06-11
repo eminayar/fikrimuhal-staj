@@ -1,8 +1,6 @@
-import org.querki.jquery._
 import org.scalajs.dom
 import scala.concurrent.ExecutionContext.Implicits.global
 
-import scala.scalajs.js.timers._
 import scala.scalajs.js.annotation.{JSExport, JSExportTopLevel}
 import util._
 
@@ -91,7 +89,6 @@ object Main extends App{
         println("not logged in!")
     }
   }
-
 
 }
 

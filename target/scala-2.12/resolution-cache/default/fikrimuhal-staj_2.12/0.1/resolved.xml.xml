@@ -4,7 +4,7 @@
 		module="fikrimuhal-staj_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20180607114840"
+		publication="20180611112332"
 	>
 		<description>
 		fikrimuhal-staj
@@ -38,5 +38,7 @@
 		<dependency org="io.circe" name="circe-generic_2.12" rev="0.9.3" conf="compile->default(compile)"/>
 		<dependency org="io.circe" name="circe-parser_2.12" rev="0.9.3" conf="compile->default(compile)"/>
 		<dependency org="com.pauldijou" name="jwt-circe-legacy_2.12" rev="0.16.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-persistence_2.12" rev="2.5.13" conf="compile->default(compile)"/>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-all" rev="1.8" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -7,28 +7,28 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, phantom-js-jetty"
-		date="20180607142345"/>
+		date="20180608183244"/>
 	<dependencies>
-		<module organisation="org.webjars" name="jquery">
-			<revision name="2.2.1" status="release" pubdate="20160224001448" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
-				<license name="MIT License" url="https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt"/>
-				<metadata-artifact status="no" details="" size="3754" time="0" location="/Users/eminayar/.ivy2/cache/org.webjars/jquery/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/jquery/2.2.1/jquery-2.2.1.pom"/>
-				<caller organisation="client" name="client$sources" conf="compile, runtime-internal, runtime, optional" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="jquery" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3886" time="0" location="/Users/eminayar/.ivy2/cache/org.webjars/jquery/srcs/jquery-2.2.1-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/jquery/2.2.1/jquery-2.2.1-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.querki" name="jquery-facade_sjs0.6_2.12">
-			<revision name="1.2" status="release" pubdate="20171010235551" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.querki.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+			<revision name="1.2" status="release" pubdate="20171010235551" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.querki.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="3261" time="0" location="/Users/eminayar/.ivy2/cache/org.querki/jquery-facade_sjs0.6_2.12/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/querki/jquery-facade_sjs0.6_2.12/1.2/jquery-facade_sjs0.6_2.12-1.2.pom"/>
 				<caller organisation="client" name="client$sources" conf="compile, runtime-internal, runtime, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="jquery-facade_sjs0.6_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24636" time="0" location="/Users/eminayar/.ivy2/cache/org.querki/jquery-facade_sjs0.6_2.12/srcs/jquery-facade_sjs0.6_2.12-1.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/querki/jquery-facade_sjs0.6_2.12/1.2/jquery-facade_sjs0.6_2.12-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars" name="jquery">
+			<revision name="2.1.4" status="release" pubdate="20150430084105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="MIT License" url="https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3754" time="0" location="/Users/eminayar/.ivy2/cache/org.webjars/jquery/ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/jquery/2.1.4/jquery-2.1.4.pom"/>
+				<caller organisation="client" name="client$sources" conf="compile, runtime-internal, runtime, optional" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jquery" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3886" time="0" location="/Users/eminayar/.ivy2/cache/org.webjars/jquery/srcs/jquery-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/jquery/2.1.4/jquery-2.1.4-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -46,7 +46,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12">
-			<revision name="0.9.3" status="release" pubdate="20170701213730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+			<revision name="0.9.3" status="release" pubdate="20170701213730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
 				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="2941" time="0" location="/Users/eminayar/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/ivy-0.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.3/scalajs-dom_sjs0.6_2.12-0.9.3.pom"/>
 				<caller organisation="client" name="client$sources" conf="compile, runtime-internal, runtime, optional" rev="0.9.3" rev-constraint-default="0.9.3" rev-constraint-dynamic="0.9.3" callerrev="0.1.0-SNAPSHOT"/>

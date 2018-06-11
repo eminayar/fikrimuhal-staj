@@ -1,10 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:46:18: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/QuoteActor.scala:68:18: type mismatch;[0m
 [0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
-[0m[[0m[31merror[0m] [0m[0m required: Boolean[0m
-[0m[[0m[31merror[0m] [0m[0m      logger.info("wtf")[0m
+[0m[[0m[31merror[0m] [0m[0m required: QuoteActor.Changed => Unit[0m
+[0m[[0m[31merror[0m] [0m[0m          sender ! QuoteActionPerformed(s"OK")[0m
 [0m[[0m[31merror[0m] [0m[0m                 ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:45:7: a pure expression does nothing in statement position; multiline expressions might require enclosing parentheses[0m
-[0m[[0m[33mwarn[0m] [0m[0m      false[0m
-[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

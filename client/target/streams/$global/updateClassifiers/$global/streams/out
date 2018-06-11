@@ -45,7 +45,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.2 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], test=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime(*)][0m
@@ -53,6 +53,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
@@ -66,6 +70,21 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.webjars#jquery;2.1.4 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.webjars#jquery;2.1.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.webjars#jquery;2.1.4 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.querki#jquery-facade_sjs0.6_2.12;1.2 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.querki#jquery-facade_sjs0.6_2.12;1.2[0m
@@ -81,21 +100,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.webjars#jquery;2.2.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.webjars#jquery;2.2.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.webjars#jquery;2.2.1 in sbt-chain[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [compile][0m
@@ -137,6 +141,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
@@ -147,6 +155,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->compile][0m
@@ -159,18 +179,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->compile][0m
@@ -209,6 +217,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile][0m
@@ -219,6 +231,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->compile][0m
@@ -231,18 +255,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [test][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [runtime][0m
@@ -285,6 +297,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
@@ -295,6 +311,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->compile][0m
@@ -307,18 +335,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->compile][0m
@@ -357,6 +373,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile][0m
@@ -367,6 +387,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->compile][0m
@@ -379,18 +411,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [test->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [test->compile][0m
@@ -445,6 +465,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test->compile][0m
@@ -455,6 +479,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->compile][0m
@@ -467,18 +503,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
@@ -524,6 +548,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
@@ -534,6 +562,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->compile][0m
@@ -546,18 +586,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [compile-internal->default][0m
@@ -598,6 +626,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile-internal->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile-internal->compile][0m
@@ -608,6 +640,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile-internal->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile-internal->compile][0m
@@ -620,18 +664,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [runtime-internal][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [runtime][0m
@@ -674,6 +706,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
@@ -684,6 +720,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->compile][0m
@@ -696,18 +744,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->compile][0m
@@ -746,6 +782,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile][0m
@@ -756,6 +796,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->compile][0m
@@ -768,18 +820,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime-internal->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime-internal->runtime][0m
@@ -819,6 +859,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime-internal->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime-internal->compile][0m
@@ -829,6 +873,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime-internal->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime-internal->compile][0m
@@ -841,18 +897,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [test-internal][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [test][0m
@@ -896,6 +940,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
@@ -906,6 +954,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->compile][0m
@@ -918,18 +978,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [runtime->compile][0m
@@ -968,6 +1016,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile][0m
@@ -978,6 +1030,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->compile][0m
@@ -990,18 +1054,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [test->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [test->compile][0m
@@ -1052,6 +1104,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test->compile][0m
@@ -1062,6 +1118,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->compile][0m
@@ -1074,18 +1142,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.12;0.6.23 [test-internal->default][0m
@@ -1138,6 +1194,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test-internal->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test-internal->compile][0m
@@ -1148,6 +1208,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.12;0.8 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.1.4 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test-internal->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test-internal->compile][0m
@@ -1160,18 +1232,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.12;1.2 [test-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.webjars#jquery;2.2.1 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for client#client$sources;0.1.0-SNAPSHOT [plugin][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.2 [plugin->compile][0m
@@ -1372,52 +1432,36 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [phantom-js-jetty->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.2!scala-compiler.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-library_2.12;0.6.23!scalajs-library_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.12.2;0.6.23!scalajs-compiler_2.12.2.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3!scalajs-dom_sjs0.6_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.querki#jquery-facade_sjs0.6_2.12;1.2!jquery-facade_sjs0.6_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.querki#querki-jsext_sjs0.6_2.12;0.8!querki-jsext_sjs0.6_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.webjars#jquery;2.2.1!jquery.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.12;0.6.23!scalajs-test-interface_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.2!scala-compiler.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-library_2.12;0.6.23!scalajs-library_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.12;0.6.23!scalajs-test-interface_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3!scalajs-dom_sjs0.6_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.2!scala-reflect.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.2!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (5ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (29ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -1426,6 +1470,47 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.querki#querki-jsext_sjs0.6_2.12;0.8!querki-jsext_sjs0.6_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.querki#jquery-facade_sjs0.6_2.12;1.2!jquery-facade_sjs0.6_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (6ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (6ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0msettings loaded (4ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
@@ -1436,33 +1521,40 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (16ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (10ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.webjars#jquery;2.1.4!jquery.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.2!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (11ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (7ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (12ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (6ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -1471,7 +1563,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 113ms :: artifacts dl 58ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 226ms :: artifacts dl 143ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT compile produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT runtime produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT test produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-test.xml[0m
@@ -1484,4 +1576,4 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT pom produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT scala-tool produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-scala-tool.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT phantom-js-jetty produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-phantom-js-jetty.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (113ms resolve - 58ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (226ms resolve - 143ms download)[0m

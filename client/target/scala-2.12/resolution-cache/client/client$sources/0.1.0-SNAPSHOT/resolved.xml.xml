@@ -4,7 +4,7 @@
 		module="client$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180607142345"
+		publication="20180608183244"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -51,7 +51,7 @@
 			<artifact name="scala-compiler" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
-		<dependency org="org.scala-js" name="scalajs-dom_sjs0.6_2.12" rev="0.9.3" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+		<dependency org="org.scala-js" name="scalajs-dom_sjs0.6_2.12" rev="0.9.3" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);runtime->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);test->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);test-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile)">
 			<artifact name="scalajs-dom_sjs0.6_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
@@ -67,12 +67,12 @@
 			<artifact name="querki-jsext_sjs0.6_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
-		<dependency org="org.querki" name="jquery-facade_sjs0.6_2.12" rev="1.2" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
-			<artifact name="jquery-facade_sjs0.6_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
+		<dependency org="org.webjars" name="jquery" rev="2.1.4" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
+			<artifact name="jquery" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
-		<dependency org="org.webjars" name="jquery" rev="2.2.1" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
-			<artifact name="jquery" type="src" ext="jar" conf="*" e:classifier="sources"/>
+		<dependency org="org.querki" name="jquery-facade_sjs0.6_2.12" rev="1.2" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
+			<artifact name="jquery-facade_sjs0.6_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
 		<dependency org="org.eclipse.jetty" name="jetty-websocket" rev="8.1.16.v20140903" transitive="false" conf="phantom-js-jetty->default,compile,runtime,default(compile),master">
