@@ -1,5 +1,3 @@
-import java.time.Instant
-
 import UserActor._
 import QuoteActor._
 import akka.actor.{ActorRef, ActorSystem}
@@ -20,7 +18,6 @@ import io.circe.generic.auto._
 import io.circe.generic.semiauto.deriveDecoder
 import io.circe.generic.semiauto.deriveEncoder
 import io.circe.syntax._
-import pdi.jwt.{JwtAlgorithm, JwtCirce, JwtClaim}
 
 import scala.concurrent.duration._
 
