@@ -1427,6 +1427,85 @@ function $m_Lorg_scalajs_dom_ext_Ajax$() {
   return $n_Lorg_scalajs_dom_ext_Ajax$
 }
 /** @constructor */
+function $c_Lorg_scalajs_dom_package$() {
+  $c_O.call(this);
+  this.ApplicationCache$1 = null;
+  this.Blob$1 = null;
+  this.BlobPropertyBag$1 = null;
+  this.ClipboardEventInit$1 = null;
+  this.DOMException$1 = null;
+  this.Event$1 = null;
+  this.EventException$1 = null;
+  this.EventSource$1 = null;
+  this.FileReader$1 = null;
+  this.FormData$1 = null;
+  this.KeyboardEvent$1 = null;
+  this.MediaError$1 = null;
+  this.MutationEvent$1 = null;
+  this.MutationObserverInit$1 = null;
+  this.Node$1 = null;
+  this.NodeFilter$1 = null;
+  this.PerformanceNavigation$1 = null;
+  this.PositionError$1 = null;
+  this.Range$1 = null;
+  this.TextEvent$1 = null;
+  this.TextTrack$1 = null;
+  this.URL$1 = null;
+  this.VisibilityState$1 = null;
+  this.WebSocket$1 = null;
+  this.WheelEvent$1 = null;
+  this.XMLHttpRequest$1 = null;
+  this.XPathResult$1 = null;
+  this.window$1 = null;
+  this.document$1 = null;
+  this.console$1 = null;
+  this.bitmap$0$1 = 0
+}
+$c_Lorg_scalajs_dom_package$.prototype = new $h_O();
+$c_Lorg_scalajs_dom_package$.prototype.constructor = $c_Lorg_scalajs_dom_package$;
+/** @constructor */
+function $h_Lorg_scalajs_dom_package$() {
+  /*<skip>*/
+}
+$h_Lorg_scalajs_dom_package$.prototype = $c_Lorg_scalajs_dom_package$.prototype;
+$c_Lorg_scalajs_dom_package$.prototype.init___ = (function() {
+  return this
+});
+$c_Lorg_scalajs_dom_package$.prototype.console$lzycompute__p1__Lorg_scalajs_dom_raw_Console = (function() {
+  if (((536870912 & this.bitmap$0$1) === 0)) {
+    this.console$1 = this.window__Lorg_scalajs_dom_raw_Window().console;
+    this.bitmap$0$1 = (536870912 | this.bitmap$0$1)
+  };
+  return this.console$1
+});
+$c_Lorg_scalajs_dom_package$.prototype.window__Lorg_scalajs_dom_raw_Window = (function() {
+  return (((134217728 & this.bitmap$0$1) === 0) ? this.window$lzycompute__p1__Lorg_scalajs_dom_raw_Window() : this.window$1)
+});
+$c_Lorg_scalajs_dom_package$.prototype.window$lzycompute__p1__Lorg_scalajs_dom_raw_Window = (function() {
+  if (((134217728 & this.bitmap$0$1) === 0)) {
+    this.window$1 = $g.window;
+    this.bitmap$0$1 = (134217728 | this.bitmap$0$1)
+  };
+  return this.window$1
+});
+$c_Lorg_scalajs_dom_package$.prototype.console__Lorg_scalajs_dom_raw_Console = (function() {
+  return (((536870912 & this.bitmap$0$1) === 0) ? this.console$lzycompute__p1__Lorg_scalajs_dom_raw_Console() : this.console$1)
+});
+var $d_Lorg_scalajs_dom_package$ = new $TypeData().initClass({
+  Lorg_scalajs_dom_package$: 0
+}, false, "org.scalajs.dom.package$", {
+  Lorg_scalajs_dom_package$: 1,
+  O: 1
+});
+$c_Lorg_scalajs_dom_package$.prototype.$classData = $d_Lorg_scalajs_dom_package$;
+var $n_Lorg_scalajs_dom_package$ = (void 0);
+function $m_Lorg_scalajs_dom_package$() {
+  if ((!$n_Lorg_scalajs_dom_package$)) {
+    $n_Lorg_scalajs_dom_package$ = new $c_Lorg_scalajs_dom_package$().init___()
+  };
+  return $n_Lorg_scalajs_dom_package$
+}
+/** @constructor */
 function $c_jl_Class() {
   $c_O.call(this);
   this.data$1 = null
@@ -1691,6 +1770,15 @@ function $m_s_concurrent_ExecutionContext$Implicits$() {
     $n_s_concurrent_ExecutionContext$Implicits$ = new $c_s_concurrent_ExecutionContext$Implicits$().init___()
   };
   return $n_s_concurrent_ExecutionContext$Implicits$
+}
+function $f_s_concurrent_Future__map__F1__s_concurrent_ExecutionContext__s_concurrent_Future($thiz, f, executor) {
+  var f$2 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, f$1) {
+    return (function(x$2$2) {
+      var x$2 = $as_s_util_Try(x$2$2);
+      return x$2.map__F1__s_util_Try(f$1)
+    })
+  })($thiz, f));
+  return $f_s_concurrent_impl_Promise__transform__F1__s_concurrent_ExecutionContext__s_concurrent_Future($thiz, f$2, executor)
 }
 /** @constructor */
 function $c_s_concurrent_impl_Promise$() {
@@ -2395,6 +2483,60 @@ function $m_sjs_concurrent_QueueExecutionContext$() {
     $n_sjs_concurrent_QueueExecutionContext$ = new $c_sjs_concurrent_QueueExecutionContext$().init___()
   };
   return $n_sjs_concurrent_QueueExecutionContext$
+}
+/** @constructor */
+function $c_sjs_js_Thenable$ThenableOps$() {
+  $c_O.call(this)
+}
+$c_sjs_js_Thenable$ThenableOps$.prototype = new $h_O();
+$c_sjs_js_Thenable$ThenableOps$.prototype.constructor = $c_sjs_js_Thenable$ThenableOps$;
+/** @constructor */
+function $h_sjs_js_Thenable$ThenableOps$() {
+  /*<skip>*/
+}
+$h_sjs_js_Thenable$ThenableOps$.prototype = $c_sjs_js_Thenable$ThenableOps$.prototype;
+$c_sjs_js_Thenable$ThenableOps$.prototype.init___ = (function() {
+  return this
+});
+$c_sjs_js_Thenable$ThenableOps$.prototype.toFuture$extension__sjs_js_Thenable__s_concurrent_Future = (function($$this) {
+  var p2 = new $c_s_concurrent_impl_Promise$DefaultPromise().init___();
+  var a = (function(p2$1$1) {
+    return (function(arg1$2$1) {
+      return $m_sjs_js_Thenable$ThenableOps$().scala$scalajs$js$Thenable$ThenableOps$$$anonfun$toFuture$2__O__s_concurrent_Promise__sjs_js_$bar(arg1$2$1, p2$1$1)
+    })
+  })(p2);
+  $$this.then((function(p2$1) {
+    return (function(arg1$2) {
+      return $m_sjs_js_Thenable$ThenableOps$().scala$scalajs$js$Thenable$ThenableOps$$$anonfun$toFuture$1__O__s_concurrent_Promise__sjs_js_$bar(arg1$2, p2$1)
+    })
+  })(p2), a);
+  return p2
+});
+$c_sjs_js_Thenable$ThenableOps$.prototype.scala$scalajs$js$Thenable$ThenableOps$$$anonfun$toFuture$2__O__s_concurrent_Promise__sjs_js_$bar = (function(e, p2$1) {
+  if ($is_jl_Throwable(e)) {
+    var x2 = $as_jl_Throwable(e);
+    var cause = x2
+  } else {
+    var cause = new $c_sjs_js_JavaScriptException().init___O(e)
+  };
+  $f_s_concurrent_Promise__failure__jl_Throwable__s_concurrent_Promise(p2$1, cause)
+});
+$c_sjs_js_Thenable$ThenableOps$.prototype.scala$scalajs$js$Thenable$ThenableOps$$$anonfun$toFuture$1__O__s_concurrent_Promise__sjs_js_$bar = (function(v, p2$1) {
+  $f_s_concurrent_Promise__success__O__s_concurrent_Promise(p2$1, v)
+});
+var $d_sjs_js_Thenable$ThenableOps$ = new $TypeData().initClass({
+  sjs_js_Thenable$ThenableOps$: 0
+}, false, "scala.scalajs.js.Thenable$ThenableOps$", {
+  sjs_js_Thenable$ThenableOps$: 1,
+  O: 1
+});
+$c_sjs_js_Thenable$ThenableOps$.prototype.$classData = $d_sjs_js_Thenable$ThenableOps$;
+var $n_sjs_js_Thenable$ThenableOps$ = (void 0);
+function $m_sjs_js_Thenable$ThenableOps$() {
+  if ((!$n_sjs_js_Thenable$ThenableOps$)) {
+    $n_sjs_js_Thenable$ThenableOps$ = new $c_sjs_js_Thenable$ThenableOps$().init___()
+  };
+  return $n_sjs_js_Thenable$ThenableOps$
 }
 /** @constructor */
 function $c_sjs_js_WrappedDictionary$Cache$() {
@@ -4029,6 +4171,18 @@ $c_LMain$.prototype.eraseQuote__I__V = (function(id) {
     })
   })(this)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext())
 });
+$c_LMain$.prototype.Main$$$anonfun$new$1__Lorg_scalajs_dom_raw_Event__s_concurrent_Future = (function(x$1) {
+  var jsx$1 = $m_sjs_js_Thenable$ThenableOps$();
+  var p = $g.navigator.serviceWorker.register("worker.js");
+  var this$7 = jsx$1.toFuture$extension__sjs_js_Thenable__s_concurrent_Future(p);
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(e$2) {
+      return $g.console.log(e$2)
+    })
+  })(this));
+  var executor = $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext();
+  return $f_s_concurrent_Future__map__F1__s_concurrent_ExecutionContext__s_concurrent_Future(this$7, f, executor)
+});
 $c_LMain$.prototype.$$js$exported$meth$featuredQuote__O = (function() {
   this.featuredQuote__V()
 });
@@ -4181,7 +4335,15 @@ $c_LMain$.prototype.ping__V = (function() {
   })(this)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext())
 });
 $c_LMain$.prototype.delayedEndpoint$Main$1__V = (function() {
-  this.token$1 = ""
+  this.token$1 = "";
+  var v = $g.navigator.serviceWorker;
+  if ((!(v === (void 0)))) {
+    $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().addEventListener("load", (function(arg1$2) {
+      return $m_LMain$().Main$$$anonfun$new$1__Lorg_scalajs_dom_raw_Event__s_concurrent_Future(arg1$2)
+    }))
+  } else {
+    $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console().log("registration failed!")
+  }
 });
 $c_LMain$.prototype.featuredQuote = (function() {
   return this.$$js$exported$meth$featuredQuote__O()
@@ -5075,6 +5237,34 @@ function $f_s_concurrent_impl_Promise__toString__T($thiz) {
       return "Future(<not completed>)"
     } else {
       throw new $c_s_MatchError().init___O(x1)
+    }
+  }
+}
+function $f_s_concurrent_impl_Promise__transform__F1__s_concurrent_ExecutionContext__s_concurrent_Future($thiz, f, executor) {
+  var p = new $c_s_concurrent_impl_Promise$DefaultPromise().init___();
+  $thiz.onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, f$1, p$1) {
+    return (function(result$2) {
+      var result = $as_s_util_Try(result$2);
+      var result$1 = $f_s_concurrent_impl_Promise__liftedTree1$1__ps_concurrent_impl_Promise__F1__s_util_Try__s_util_Try($this, f$1, result);
+      return $as_s_concurrent_impl_Promise$DefaultPromise($f_s_concurrent_Promise__complete__s_util_Try__s_concurrent_Promise(p$1, result$1))
+    })
+  })($thiz, f, p)), executor);
+  return p
+}
+function $f_s_concurrent_impl_Promise__liftedTree1$1__ps_concurrent_impl_Promise__F1__s_util_Try__s_util_Try($thiz, f$1, result$1) {
+  try {
+    return $as_s_util_Try(f$1.apply__O__O(result$1))
+  } catch (e) {
+    var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      var o11 = $m_s_util_control_NonFatal$().unapply__jl_Throwable__s_Option(e$2);
+      if ((!o11.isEmpty__Z())) {
+        var t = $as_jl_Throwable(o11.get__O());
+        return new $c_s_util_Failure().init___jl_Throwable(t)
+      };
+      throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(e$2)
+    } else {
+      throw e
     }
   }
 }
@@ -7789,6 +7979,9 @@ $c_s_util_Failure.prototype.productPrefix__T = (function() {
 $c_s_util_Failure.prototype.productArity__I = (function() {
   return 1
 });
+$c_s_util_Failure.prototype.map__F1__s_util_Try = (function(f) {
+  return this
+});
 $c_s_util_Failure.prototype.productElement__I__O = (function(x$1) {
   switch (x$1) {
     case 0: {
@@ -7855,6 +8048,23 @@ $c_s_util_Success.prototype.productPrefix__T = (function() {
 });
 $c_s_util_Success.prototype.productArity__I = (function() {
   return 1
+});
+$c_s_util_Success.prototype.map__F1__s_util_Try = (function(f) {
+  try {
+    return new $c_s_util_Success().init___O(f.apply__O__O(this.value$2))
+  } catch (e) {
+    var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      var o11 = $m_s_util_control_NonFatal$().unapply__jl_Throwable__s_Option(e$2);
+      if ((!o11.isEmpty__Z())) {
+        var e$3 = $as_jl_Throwable(o11.get__O());
+        return new $c_s_util_Failure().init___jl_Throwable(e$3)
+      };
+      throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(e$2)
+    } else {
+      throw e
+    }
+  }
 });
 $c_s_util_Success.prototype.productElement__I__O = (function(x$1) {
   switch (x$1) {

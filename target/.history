@@ -26,3 +26,58 @@ reload
 reload
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
 exit
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
+all {file:/Users/eminayar/Desktop/fikrimuhal-staj/}fikrimuhal-staj/products {file:/Users/eminayar/Desktop/fikrimuhal-staj/}fikrimuhal-staj/test:products
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile 
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+eun
+run
+compile
+run
+project client

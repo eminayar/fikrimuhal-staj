@@ -1,5 +1,6 @@
-import akka.actor.{Actor, ActorLogging, Props}
+import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, Props}
 import akka.persistence.PersistentActor
+import com.typesafe.config.ConfigFactory
 
 
 final case class Quote(id: Int, body: String)
@@ -14,6 +15,20 @@ object QuoteActor {
   final case class ChangeQuote(id: Int, body: String)
   final case class Changed(id: Int, body: String)
   final case object FeaturedQuote
+
+  def main(args: Array[String]): ActorRef = {
+    val port = if (args.isEmpty ) "0" else args(0)
+    val config = ConfigFactory.parseString(s"""
+        akka.remote.netty.tcp.port=$port
+        akka.remote.artery.canonical.port=$port
+        akka.persistence.journal.leveldb.dir=target/journal-db/QuoteActor
+        """)
+      .withFallback(ConfigFactory.parseString(s"akka.cluster.roles = [QuoteActor]"))
+      .withFallback(ConfigFactory.load())
+
+    val system = ActorSystem("ClusterSystem", config)
+    system.actorOf(QuoteActor.props , "QuoteActor")
+  }
 
   def props: Props = Props(new QuoteActor)
 }

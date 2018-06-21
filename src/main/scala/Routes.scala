@@ -27,7 +27,6 @@ trait Routes {
 
   def userActor: ActorRef
   def quoteActor: ActorRef
-  private final val secret = "topsecret"
 
   implicit val timeout: Timeout= Timeout( 2.second )
 

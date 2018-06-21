@@ -7,10 +7,10 @@
 		revision="0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180612130727"/>
+		date="20180621135048"/>
 	<dependencies>
 		<module organisation="io.circe" name="circe-parser_2.12">
-			<revision name="0.9.3" status="release" pubdate="20180328042252" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="39">
+			<revision name="0.9.3" status="release" pubdate="20180328042252" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="40">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3079" time="0" location="/Users/eminayar/.ivy2/cache/io.circe/circe-parser_2.12/ivy-0.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.9.3/circe-parser_2.12-0.9.3.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="0.9.3" rev-constraint-default="0.9.3" rev-constraint-dynamic="0.9.3" callerrev="0.1" extra-info.apiURL="https://circe.github.io/circe/api/"/>
@@ -22,7 +22,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-reflect">
-			<revision name="2.12.6" status="release" pubdate="20180427113633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+			<revision name="2.12.6" status="release" pubdate="20180427113633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2637" time="0" location="/Users/eminayar/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
@@ -34,7 +34,7 @@
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-jawn_2.12">
-			<revision name="0.9.3" status="release" pubdate="20180328042202" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+			<revision name="0.9.3" status="release" pubdate="20180328042202" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3081" time="0" location="/Users/eminayar/.ivy2/cache/io.circe/circe-jawn_2.12/ivy-0.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.9.3/circe-jawn_2.12-0.9.3.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="0.9.3" rev-constraint-default="0.9.3" rev-constraint-dynamic="0.9.3" callerrev="0.1" extra-info.apiURL="https://circe.github.io/circe/api/"/>
@@ -46,7 +46,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-persistence_2.12">
-			<revision name="2.5.13" status="release" pubdate="20180528161529" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+			<revision name="2.5.13" status="release" pubdate="20180528161529" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="4157" time="0" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-persistence_2.12/ivy-2.5.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.12/2.5.13/akka-persistence_2.12-2.5.13.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="2.5.13" rev-constraint-default="2.5.13" rev-constraint-dynamic="2.5.13" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13"/>
@@ -57,8 +57,20 @@
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="com.typesafe.akka" name="akka-cluster-metrics_2.12">
+			<revision name="2.5.13" status="release" pubdate="20180528162231" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3722" time="0" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-cluster-metrics_2.12/ivy-2.5.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-metrics_2.12/2.5.13/akka-cluster-metrics_2.12-2.5.13.pom"/>
+				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="2.5.13" rev-constraint-default="2.5.13" rev-constraint-dynamic="2.5.13" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13"/>
+				<artifacts>
+					<artifact name="akka-cluster-metrics_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="53531" time="1618" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-cluster-metrics_2.12/srcs/akka-cluster-metrics_2.12-2.5.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-metrics_2.12/2.5.13/akka-cluster-metrics_2.12-2.5.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.akka" name="akka-cluster_2.12">
-			<revision name="2.5.13" status="release" pubdate="20180528162120" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+			<revision name="2.5.13" status="release" pubdate="20180528162120" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="21">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3455" time="0" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-cluster_2.12/ivy-2.5.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.12/2.5.13/akka-cluster_2.12-2.5.13.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="2.5.13" rev-constraint-default="2.5.13" rev-constraint-dynamic="2.5.13" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13"/>
@@ -70,7 +82,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-remote_2.12">
-			<revision name="2.5.13" status="release" pubdate="20180528161813" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+			<revision name="2.5.13" status="release" pubdate="20180528161813" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="4428" time="0" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-remote_2.12/ivy-2.5.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.12/2.5.13/akka-remote_2.12-2.5.13.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="2.5.13" rev-constraint-default="2.5.13" rev-constraint-dynamic="2.5.13" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13"/>
@@ -82,7 +94,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-stream_2.12">
-			<revision name="2.5.13" status="release" pubdate="20180528161420" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="23">
+			<revision name="2.5.13" status="release" pubdate="20180528161420" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="24">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3539" time="0" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/ivy-2.5.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.13/akka-stream_2.12-2.5.13.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="2.5.13" rev-constraint-default="2.5.13" rev-constraint-dynamic="2.5.13" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13"/>
@@ -94,7 +106,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
-			<revision name="2.5.13" status="release" pubdate="20180528160854" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+			<revision name="2.5.13" status="release" pubdate="20180528160854" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3102" time="0" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/ivy-2.5.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="2.5.13" rev-constraint-default="2.5.13" rev-constraint-dynamic="2.5.13" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13"/>
@@ -106,7 +118,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
-			<revision name="0.8.0" status="release" pubdate="20161030011227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+			<revision name="0.8.0" status="release" pubdate="20161030011227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/eminayar/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1"/>
@@ -154,7 +166,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
-			<revision name="1.1.0" status="release" pubdate="20180201231040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+			<revision name="1.1.0" status="release" pubdate="20180201231040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="2929" time="0" location="/Users/eminayar/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.0/scala-parser-combinators_2.12-1.1.0.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1"/>
@@ -238,7 +250,7 @@
 			</revision>
 		</module>
 		<module organisation="com.pauldijou" name="jwt-core-legacy_2.12">
-			<revision name="0.16.0" status="release" pubdate="20180306003713" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pauldijou.fr/jwt-scala/" extra-info.apiURL="http://pauldijou.fr/jwt-scala/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+			<revision name="0.16.0" status="release" pubdate="20180306003713" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pauldijou.fr/jwt-scala/" extra-info.apiURL="http://pauldijou.fr/jwt-scala/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3352" time="0" location="/Users/eminayar/.ivy2/cache/com.pauldijou/jwt-core-legacy_2.12/ivy-0.16.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/pauldijou/jwt-core-legacy_2.12/0.16.0/jwt-core-legacy_2.12-0.16.0.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="0.16.0" rev-constraint-default="0.16.0" rev-constraint-dynamic="0.16.0" callerrev="0.1" extra-info.apiURL="http://pauldijou.fr/jwt-scala/api/"/>
@@ -250,7 +262,7 @@
 			</revision>
 		</module>
 		<module organisation="org.bouncycastle" name="bcpkix-jdk15on">
-			<revision name="1.57" status="release" pubdate="20170515032611" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+			<revision name="1.57" status="release" pubdate="20170515032611" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
 				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
 				<metadata-artifact status="no" details="" size="2927" time="0" location="/Users/eminayar/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/ivy-1.57.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.57/bcpkix-jdk15on-1.57.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="1.57" rev-constraint-default="1.57" rev-constraint-dynamic="1.57" callerrev="0.1"/>
@@ -262,7 +274,7 @@
 			</revision>
 		</module>
 		<module organisation="org.bouncycastle" name="bcprov-jdk15on">
-			<revision name="1.57" status="release" pubdate="20170515032435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+			<revision name="1.57" status="release" pubdate="20170515032435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
 				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
 				<metadata-artifact status="no" details="" size="2676" time="0" location="/Users/eminayar/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/ivy-1.57.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.57/bcprov-jdk15on-1.57.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="1.57" rev-constraint-default="1.57" rev-constraint-dynamic="1.57" callerrev="0.1"/>
@@ -286,7 +298,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
-			<revision name="1.10" status="release" pubdate="20141106171535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+			<revision name="1.10" status="release" pubdate="20141106171535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="10608" time="0" location="/Users/eminayar/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="0.1"/>
@@ -322,7 +334,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-http-core_2.12">
-			<revision name="10.1.1" status="release" pubdate="20180402101157" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+			<revision name="10.1.1" status="release" pubdate="20180402101157" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
 				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
 				<metadata-artifact status="no" details="" size="3735" time="0" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.1/akka-http-core_2.12-10.1.1.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
@@ -334,7 +346,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-parsing_2.12">
-			<revision name="10.1.1" status="release" pubdate="20180402101214" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+			<revision name="10.1.1" status="release" pubdate="20180402101214" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
 				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
 				<metadata-artifact status="no" details="" size="3111" time="0" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.1/akka-parsing_2.12-10.1.1.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
@@ -406,7 +418,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="macro-compat_2.12">
-			<revision name="1.1.1" status="release" pubdate="20161102104258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+			<revision name="1.1.1" status="release" pubdate="20161102104258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2964" time="0" location="/Users/eminayar/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
@@ -430,7 +442,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="cats-core_2.12">
-			<revision name="1.0.1" status="release" pubdate="20171231144951" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+			<revision name="1.0.1" status="release" pubdate="20171231144951" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="3339" time="0" location="/Users/eminayar/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
@@ -454,7 +466,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="cats-macros_2.12">
-			<revision name="1.0.1" status="release" pubdate="20171231144800" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+			<revision name="1.0.1" status="release" pubdate="20171231144800" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="2923" time="0" location="/Users/eminayar/.ivy2/cache/org.typelevel/cats-macros_2.12/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
@@ -466,7 +478,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="machinist_2.12">
-			<revision name="0.6.2" status="release" pubdate="20170601062738" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+			<revision name="0.6.2" status="release" pubdate="20170601062738" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="2785" time="0" location="/Users/eminayar/.ivy2/cache/org.typelevel/machinist_2.12/ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="0.1"/>
@@ -478,7 +490,7 @@
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-numbers_2.12">
-			<revision name="0.9.3" status="release" pubdate="20180328042118" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+			<revision name="0.9.3" status="release" pubdate="20180328042118" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2798" time="0" location="/Users/eminayar/.ivy2/cache/io.circe/circe-numbers_2.12/ivy-0.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.9.3/circe-numbers_2.12-0.9.3.pom"/>
 				<caller organisation="default" name="fikrimuhal-staj$sources" conf="test, compile, runtime" rev="0.9.3" rev-constraint-default="0.9.3" rev-constraint-dynamic="0.9.3" callerrev="0.1" extra-info.apiURL="https://circe.github.io/circe/api/"/>

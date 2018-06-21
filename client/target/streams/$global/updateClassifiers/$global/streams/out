@@ -1432,122 +1432,122 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies client#client$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [phantom-js-jetty->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.2!scala-compiler.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-library_2.12;0.6.23!scalajs-library_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.12;0.6.23!scalajs-test-interface_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.querki#jquery-facade_sjs0.6_2.12;1.2!jquery-facade_sjs0.6_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3!scalajs-dom_sjs0.6_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.querki#querki-jsext_sjs0.6_2.12;0.8!querki-jsext_sjs0.6_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (5ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (5ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (6ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.2!scala-reflect.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (7ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (6ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.12.2;0.6.23!scalajs-compiler_2.12.2.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.webjars#jquery;2.1.4!jquery.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (6ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.2!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.webjars#jquery;2.1.4!jquery.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.querki#jquery-facade_sjs0.6_2.12;1.2!jquery-facade_sjs0.6_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.3!scalajs-dom_sjs0.6_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.12;0.6.23!scalajs-test-interface_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.2!scala-compiler.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.2!scala-reflect.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.12.2;0.6.23!scalajs-compiler_2.12.2.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 92ms :: artifacts dl 41ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (9ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (11ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (12ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.querki#querki-jsext_sjs0.6_2.12;0.8!querki-jsext_sjs0.6_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (8ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (7ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (7ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 164ms :: artifacts dl 34ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT compile produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT runtime produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT test produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-test.xml[0m
@@ -1560,4 +1560,4 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT pom produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT scala-tool produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-scala-tool.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for client#client$sources;0.1.0-SNAPSHOT phantom-js-jetty produced in /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/resolution-cache/reports/client-client$sources-phantom-js-jetty.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (92ms resolve - 41ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (164ms resolve - 34ms download)[0m

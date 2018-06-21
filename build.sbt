@@ -11,6 +11,7 @@ libraryDependencies += "com.pauldijou" %% "jwt-circe-legacy" % "0.16.0"
 libraryDependencies += "com.typesafe.akka" %% "akka-persistence" % "2.5.13"
 libraryDependencies += "org.fusesource.leveldbjni" % "leveldbjni-all" % "1.8"
 libraryDependencies += "com.typesafe.akka" %% "akka-cluster" % "2.5.13"
+libraryDependencies += "com.typesafe.akka" %% "akka-cluster-metrics" % "2.5.13"
 
 
 val client = project

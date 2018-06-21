@@ -7,12 +7,25 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180612130726"/>
+		date="20180621134944"/>
 	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-cluster-metrics_2.12">
+			<revision name="2.5.13" status="release" pubdate="20180528162231" resolver="public" artresolver="public" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3275" time="329" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-cluster-metrics_2.12/ivy-2.5.13.xml" searched="true" original-local-location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-cluster-metrics_2.12/ivy-2.5.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-metrics_2.12/2.5.13/akka-cluster-metrics_2.12-2.5.13.pom"/>
+				<caller organisation="default" name="fikrimuhal-staj_2.12" conf="compile" rev="2.5.13" rev-constraint-default="2.5.13" rev-constraint-dynamic="2.5.13" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-cluster-metrics_2.12" type="jar" ext="jar" status="successful" details="" size="304145" time="766" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-cluster-metrics_2.12/jars/akka-cluster-metrics_2.12-2.5.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-metrics_2.12/2.5.13/akka-cluster-metrics_2.12-2.5.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.akka" name="akka-cluster_2.12">
-			<revision name="2.5.13" status="release" pubdate="20180528162120" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+			<revision name="2.5.13" status="release" pubdate="20180528162120" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="31">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3455" time="0" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-cluster_2.12/ivy-2.5.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.12/2.5.13/akka-cluster_2.12-2.5.13.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster-metrics_2.12" conf="default, compile, runtime, master" rev="2.5.13" rev-constraint-default="2.5.13" rev-constraint-dynamic="2.5.13" callerrev="2.5.13"/>
 				<caller organisation="default" name="fikrimuhal-staj_2.12" conf="compile" rev="2.5.13" rev-constraint-default="2.5.13" rev-constraint-dynamic="2.5.13" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="akka-cluster_2.12" type="jar" ext="jar" status="no" details="" size="964667" time="0" location="/Users/eminayar/.ivy2/cache/com.typesafe.akka/akka-cluster_2.12/jars/akka-cluster_2.12-2.5.13.jar">
@@ -583,6 +596,7 @@
 				<caller organisation="com.pauldijou" name="jwt-core-legacy_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.16.0"/>
 				<caller organisation="io.circe" name="circe-generic_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.9.3"/>
 				<caller organisation="org.spire-math" name="jawn-parser_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.11.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster-metrics_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.5.13"/>
 				<caller organisation="com.typesafe.akka" name="akka-stream_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.5.11"/>
 				<caller organisation="org.typelevel" name="cats-kernel_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.0.1"/>
 				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.5.11"/>

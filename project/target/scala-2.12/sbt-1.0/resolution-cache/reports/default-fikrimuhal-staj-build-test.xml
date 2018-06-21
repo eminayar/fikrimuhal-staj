@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180612130830"/>
+		date="20180621135204"/>
 	<dependencies>
 		<module organisation="org.scala-js" name="sbt-scalajs">
 			<revision name="0.6.23" status="release" pubdate="20180516012030" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-scalaVersion="2.12" extra-sbtVersion="1.0" extra-info.apiURL="http://www.scala-js.org/api/sbt-scalajs/0.6.23/" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
@@ -218,7 +218,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20180612130823" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.0" status="integration" pubdate="20180621135156" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="fikrimuhal-staj-build" conf="test, compile, runtime" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>

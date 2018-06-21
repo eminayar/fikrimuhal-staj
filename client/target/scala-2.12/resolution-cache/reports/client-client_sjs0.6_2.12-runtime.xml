@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, phantom-js-jetty"
-		date="20180607145113"/>
+		date="20180621122538"/>
 	<dependencies>
 		<module organisation="org.querki" name="jquery-facade_sjs0.6_2.12">
 			<revision name="1.2" status="release" pubdate="20171010235551" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.querki.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">

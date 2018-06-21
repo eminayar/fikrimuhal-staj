@@ -259,6 +259,22 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.5.13] com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.typelevel#cats-core_2.12;1.0.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.typelevel#cats-core_2.12;1.0.1[0m
@@ -272,7 +288,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-cluster_2.12;2.5.13 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-cluster_2.12;2.5.13 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.typesafe.akka#akka-cluster_2.12;2.5.13[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found com.typesafe.akka#akka-cluster_2.12;2.5.13 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[2.5.13] com.typesafe.akka#akka-cluster_2.12;2.5.13[0m
@@ -280,12 +296,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.typelevel#cats-macros_2.12;1.0.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
@@ -720,6 +740,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile][0m
@@ -733,12 +765,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile->runtime(*)][0m
@@ -1101,6 +1137,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->compile][0m
@@ -1114,12 +1162,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [runtime->runtime(*)][0m
@@ -1486,6 +1538,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile][0m
@@ -1499,12 +1563,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile->runtime(*)][0m
@@ -1867,6 +1935,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->compile][0m
@@ -1880,12 +1960,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [runtime->runtime(*)][0m
@@ -2248,6 +2332,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [test->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [test->compile][0m
@@ -2261,12 +2357,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [test->runtime(*)][0m
@@ -2636,6 +2736,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile][0m
@@ -2649,12 +2761,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile->runtime(*)][0m
@@ -3019,6 +3135,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile-internal->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile-internal->compile][0m
@@ -3032,12 +3160,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile-internal->runtime(*)][0m
@@ -3404,6 +3536,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile][0m
@@ -3417,12 +3561,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile->runtime(*)][0m
@@ -3785,6 +3933,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->compile][0m
@@ -3798,12 +3958,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [runtime->runtime(*)][0m
@@ -4167,6 +4331,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime-internal->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime-internal->compile][0m
@@ -4180,12 +4356,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [runtime-internal->runtime(*)][0m
@@ -4553,6 +4733,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [compile->compile][0m
@@ -4566,12 +4758,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [compile->runtime(*)][0m
@@ -4934,6 +5130,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [runtime->compile][0m
@@ -4947,12 +5155,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [runtime->runtime(*)][0m
@@ -5315,6 +5527,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [test->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [test->compile][0m
@@ -5328,12 +5552,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [test->runtime(*)][0m
@@ -5698,6 +5926,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [test-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.13 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [test-internal->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-core_2.12;1.0.1 [test-internal->compile][0m
@@ -5711,12 +5951,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->com.typesafe.akka#akka-cluster_2.12;2.5.13 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.typelevel#cats-macros_2.12;1.0.1 [test-internal->runtime(*)][0m
@@ -5952,71 +6196,128 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#fikrimuhal-staj$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.11.1!jawn-parser_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.circe#circe-generic_2.12;0.9.3!circe-generic_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-macros_2.12;1.0.1!cats-macros_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.3!shapeless_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-all;1.8!leveldbjni-all.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.agrona#agrona;0.9.17!agrona.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.13!akka-protobuf_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-core_2.12;1.0.1!cats-core_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.circe#circe-jawn_2.12;0.9.3!circe-jawn_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty;3.10.6.Final!netty.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/eminayar/.ivy2/local/com.typesafe.akka/akka-cluster-metrics_2.12/2.5.13/srcs/akka-cluster-metrics_2.12-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.aeron#aeron-client;1.9.1!aeron-client.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.1!akka-http_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.3!ssl-config-core_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (8ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (13ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.pauldijou#jwt-core-legacy_2.12;0.16.0!jwt-core-legacy_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;1.0.1!cats-kernel_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (13ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (16ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (18ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0msettings loaded (12ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (12ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (14ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -6025,47 +6326,130 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.12;2.5.13!akka-cluster_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.pauldijou#jwt-circe-legacy_2.12;0.16.0!jwt-circe-legacy_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-all;1.8!leveldbjni-all.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (9ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.agrona#agrona;0.9.17!agrona.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.aeron#aeron-driver;1.9.1!aeron-driver.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-persistence_2.12;2.5.13!akka-persistence_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (6ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.circe#circe-parser_2.12;0.9.3!circe-parser_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.13!akka-stream_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.aeron#aeron-client;1.9.1!aeron-client.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.11.1!jawn-parser_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.bouncycastle#bcprov-jdk15on;1.57!bcprov-jdk15on.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.2!machinist_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0!scala-parser-combinators_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.bouncycastle#bcprov-jdk15on;1.57!bcprov-jdk15on.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;1.0.1!cats-kernel_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.13!akka-actor_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.1!akka-http_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.circe#circe-core_2.12;0.9.3!circe-core_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (34ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-metrics_2.12/2.5.13/akka-cluster-metrics_2.12-2.5.13-sources.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.1!akka-http-core_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.3!ssl-config-core_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (23ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (7ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (9ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.bouncycastle#bcpkix-jdk15on;1.57!bcpkix-jdk15on.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.12;2.5.13!akka-remote_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0msettings loaded (16ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
@@ -6075,12 +6459,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (4ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (13ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -6089,137 +6469,72 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.1!akka-parsing_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (19ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (7ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.12;2.5.13!akka-cluster_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (11ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-macros_2.12;1.0.1!cats-macros_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (7ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty;3.10.6.Final!netty.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (26ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.circe#circe-numbers_2.12;0.9.3!circe-numbers_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.aeron#aeron-driver;1.9.1!aeron-driver.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-persistence_2.12;2.5.13!akka-persistence_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.pauldijou#jwt-json-common-legacy_2.12;0.16.0!jwt-json-common-legacy_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0msettings loaded (12ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (14ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.1!akka-parsing_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.3!shapeless_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (39ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.pauldijou#jwt-json-common-legacy_2.12;0.16.0!jwt-json-common-legacy_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.13!akka-protobuf_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (8ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (35ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.13!akka-actor_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.circe#circe-jawn_2.12;0.9.3!circe-jawn_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.pauldijou#jwt-core-legacy-impl_2.12;0.16.0!jwt-core-legacy-impl_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.pauldijou#jwt-core-legacy_2.12;0.16.0!jwt-core-legacy_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/eminayar/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/eminayar/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (8ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (8ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/eminayar/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 496ms :: artifacts dl 349ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.circe#circe-core_2.12;0.9.3!circe-core_2.12.jar(src)[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-metrics_2.12/2.5.13/akka-cluster-metrics_2.12-2.5.13-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-metrics_2.12/2.5.13/akka-cluster-metrics_2.12-2.5.13-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-metrics_2.12/2.5.13/akka-cluster-metrics_2.12-2.5.13-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-metrics_2.12/2.5.13/akka-cluster-metrics_2.12-2.5.13-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] com.typesafe.akka#akka-cluster-metrics_2.12;2.5.13!akka-cluster-metrics_2.12.jar(src) (1618ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 896ms :: artifacts dl 1703ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fikrimuhal-staj$sources;0.1 compile produced in /Users/eminayar/Desktop/fikrimuhal-staj/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fikrimuhal-staj$sources;0.1 runtime produced in /Users/eminayar/Desktop/fikrimuhal-staj/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fikrimuhal-staj$sources;0.1 test produced in /Users/eminayar/Desktop/fikrimuhal-staj/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-test.xml[0m
@@ -6231,4 +6546,4 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fikrimuhal-staj$sources;0.1 plugin produced in /Users/eminayar/Desktop/fikrimuhal-staj/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fikrimuhal-staj$sources;0.1 pom produced in /Users/eminayar/Desktop/fikrimuhal-staj/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fikrimuhal-staj$sources;0.1 scala-tool produced in /Users/eminayar/Desktop/fikrimuhal-staj/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (496ms resolve - 349ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (896ms resolve - 1703ms download)[0m

@@ -1,6 +1,9 @@
 import org.scalajs.dom
-import scala.concurrent.ExecutionContext.Implicits.global
+import org.scalajs.dom.raw.{MessageEvent, Worker, WorkerGlobalScope}
 
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.scalajs.js
+import js.Dynamic.{global => g }
 import scala.scalajs.js.annotation.{JSExport, JSExportTopLevel}
 import util._
 
@@ -90,6 +93,15 @@ object Main extends App{
     }
   }
 
+  if ( !js.isUndefined(g.navigator.serviceWorker ) ) {
+    dom.window.addEventListener[dom.raw.Event]( "load" , (_) => {
+      g.navigator.serviceWorker.register("worker.js").asInstanceOf[js.Promise[js.Any]].toFuture map{ e =>
+        g.console.log(e)
+      }
+    } )
+  }else{
+    dom.console.log("registration failed!")
+  }
 }
 
 

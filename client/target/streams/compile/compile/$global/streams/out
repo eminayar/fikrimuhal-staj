@@ -1,6 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/client/src/main/scala/Main.scala:20:17: missing argument list for method setTimeout in package timers[0m
-[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
-[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `setTimeout _` or `setTimeout(_)(_)` instead of `setTimeout`.[0m
-[0m[[0m[31merror[0m] [0m[0m      setTimeout( 100 )[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/client/src/main/scala/Main.scala:101:23: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any (in scala) [0m
+[0m[[0m[31merror[0m] [0m[0m required: Any (in scala.scalajs.js) [0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m        g.console.log(e)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

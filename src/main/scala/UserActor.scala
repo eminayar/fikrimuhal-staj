@@ -1,14 +1,17 @@
 import akka.actor._
 import java.time.Instant
+
+import akka.cluster.ClusterEvent.MemberUp
+import akka.cluster.{Cluster, Member}
 import akka.persistence._
 import akka.persistence.journal._
 import akka.persistence.snapshot._
-
 import akka.persistence.{Persistence, PersistentActor}
+import com.typesafe.config.ConfigFactory
 import pdi.jwt.{JwtAlgorithm, JwtCirce, JwtClaim}
 
-
 final case class User(username: String, password: String)
+
 
 final case class UserState(users: List[User] = Nil ){
   def created( user:User ): UserState = copy( user :: users )
@@ -16,20 +19,37 @@ final case class UserState(users: List[User] = Nil ){
 }
 
 object UserActor{
-  case class CreateUser(user: User)
-  case class Created(user: User)
-  case object ShutDown
+
+  def main(args: Array[String] ): ActorRef ={
+    val port = if (args.isEmpty ) "0" else args(0)
+    val config = ConfigFactory.parseString(s"""
+        akka.remote.netty.tcp.port=$port
+        akka.remote.artery.canonical.port=$port
+        akka.persistence.journal.leveldb.dir=target/journal-db/UserActor
+        """)
+      .withFallback(ConfigFactory.parseString(s"akka.cluster.roles = [UserActor]"))
+      .withFallback(ConfigFactory.load())
+
+    val system = ActorSystem("ClusterSystem", config)
+    system.actorOf(UserActor.props(args(0)) , "UserActor" )
+  }
+
+  final case class CreateUser(user: User)
+  final case class Login(user: User)
+  final case class Created(user: User)
+  final case class Logout(token: String)
+  final case class isValidToken(token: String)
+  case object UserBackendRegistration
   case object GetUsers
-  case class Login(user: User)
-  case class Logout(token: String)
-  case class isValidToken(token: String)
-  def props: Props = Props(new UserActor)
+  case object ShutDown
+
+  def props(persistId: String): Props = Props(new UserActor(persistId))
 }
 
-class UserActor extends PersistentActor{
+class UserActor(persistId: String) extends PersistentActor with ActorLogging {
   import UserActor._
 
-  override def persistenceId: String = "user-actor-id-1"
+  override def persistenceId: String = persistId
 
   private var state = UserState()
   private var activeTokens = Set.empty[String]
@@ -44,8 +64,6 @@ class UserActor extends PersistentActor{
       }
     case GetUsers =>
       sender ! state.users
-    case ShutDown =>
-      context.stop(self)
     case SaveSnapshotSuccess(metadata) =>
       println("snapshot success")
     case SaveSnapshotFailure(metadata,reason) =>
