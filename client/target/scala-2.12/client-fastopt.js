@@ -1478,6 +1478,9 @@ $c_Lorg_scalajs_dom_package$.prototype.console$lzycompute__p1__Lorg_scalajs_dom_
   };
   return this.console$1
 });
+$c_Lorg_scalajs_dom_package$.prototype.document__Lorg_scalajs_dom_raw_HTMLDocument = (function() {
+  return (((268435456 & this.bitmap$0$1) === 0) ? this.document$lzycompute__p1__Lorg_scalajs_dom_raw_HTMLDocument() : this.document$1)
+});
 $c_Lorg_scalajs_dom_package$.prototype.window__Lorg_scalajs_dom_raw_Window = (function() {
   return (((134217728 & this.bitmap$0$1) === 0) ? this.window$lzycompute__p1__Lorg_scalajs_dom_raw_Window() : this.window$1)
 });
@@ -1487,6 +1490,13 @@ $c_Lorg_scalajs_dom_package$.prototype.window$lzycompute__p1__Lorg_scalajs_dom_r
     this.bitmap$0$1 = (134217728 | this.bitmap$0$1)
   };
   return this.window$1
+});
+$c_Lorg_scalajs_dom_package$.prototype.document$lzycompute__p1__Lorg_scalajs_dom_raw_HTMLDocument = (function() {
+  if (((268435456 & this.bitmap$0$1) === 0)) {
+    this.document$1 = this.window__Lorg_scalajs_dom_raw_Window().document;
+    this.bitmap$0$1 = (268435456 | this.bitmap$0$1)
+  };
+  return this.document$1
 });
 $c_Lorg_scalajs_dom_package$.prototype.console__Lorg_scalajs_dom_raw_Console = (function() {
   return (((536870912 & this.bitmap$0$1) === 0) ? this.console$lzycompute__p1__Lorg_scalajs_dom_raw_Console() : this.console$1)
@@ -4068,6 +4078,8 @@ $c_sr_IntRef.prototype.$classData = $d_sr_IntRef;
 function $c_LMain$() {
   $c_O.call(this);
   this.token$1 = null;
+  this.pre$1 = null;
+  this.downloadButton$1 = null;
   this.executionStart$1 = $m_sjsr_RuntimeLong$().Zero__sjsr_RuntimeLong();
   this.scala$App$$$undargs$1 = null;
   this.scala$App$$initCode$1 = null
@@ -4116,6 +4128,21 @@ $c_LMain$.prototype.init___ = (function() {
 });
 $c_LMain$.prototype.$$js$exported$meth$ping__O = (function() {
   this.ping__V()
+});
+$c_LMain$.prototype.Main$$$anonfun$Download$1__Lorg_scalajs_dom_raw_MessageEvent__V = (function(event) {
+  var jsx$1 = $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console();
+  var s = ("message from SW " + $objectToString(event));
+  jsx$1.log(s)
+});
+$c_LMain$.prototype.$$js$exported$meth$sendMessageToSW__T__O = (function(message) {
+  this.sendMessageToSW__T__V(message)
+});
+$c_LMain$.prototype.Download__V = (function() {
+  var messageChannel = new $g.MessageChannel();
+  messageChannel.port1.onmessage = (function(arg1$2) {
+    $m_LMain$().Main$$$anonfun$Download$1__Lorg_scalajs_dom_raw_MessageEvent__V(arg1$2)
+  });
+  $g.navigator.serviceWorker.controller.postMessage("hello!", [messageChannel.port2])
 });
 $c_LMain$.prototype.featuredQuote__V = (function() {
   var this$5 = $m_Lorg_scalajs_dom_ext_Ajax$();
@@ -4185,6 +4212,11 @@ $c_LMain$.prototype.Main$$$anonfun$new$1__Lorg_scalajs_dom_raw_Event__s_concurre
 });
 $c_LMain$.prototype.$$js$exported$meth$featuredQuote__O = (function() {
   this.featuredQuote__V()
+});
+$c_LMain$.prototype.sendMessageToSW__T__V = (function(message) {
+  var jsx$1 = $g.navigator.serviceWorker.controller;
+  var s = (("Client says '" + message) + "'");
+  jsx$1.postMessage(s)
 });
 $c_LMain$.prototype.$$js$exported$meth$eraseQuote__I__O = (function(id) {
   this.eraseQuote__I__V(id)
@@ -4334,6 +4366,9 @@ $c_LMain$.prototype.ping__V = (function() {
     })
   })(this)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext())
 });
+$c_LMain$.prototype.$$js$exported$meth$Download__O = (function() {
+  this.Download__V()
+});
 $c_LMain$.prototype.delayedEndpoint$Main$1__V = (function() {
   this.token$1 = "";
   var v = $g.navigator.serviceWorker;
@@ -4343,7 +4378,28 @@ $c_LMain$.prototype.delayedEndpoint$Main$1__V = (function() {
     }))
   } else {
     $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console().log("registration failed!")
-  }
+  };
+  var v$1 = $g.navigator.serviceWorker;
+  if ((!(v$1 === (void 0)))) {
+    $g.navigator.serviceWorker.addEventListener("message", (function($this) {
+      return (function(event$2) {
+        var jsx$1 = $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console();
+        var s = $objectToString(event$2.data);
+        jsx$1.log(s)
+      })
+    })(this))
+  };
+  this.pre$1 = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().createElement("pre");
+  $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().body.appendChild(this.pre$1);
+  this.downloadButton$1 = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().createElement("BUTTON");
+  this.downloadButton$1.id = "downloadButton"
+});
+$c_LMain$.prototype.Download = (function() {
+  return this.$$js$exported$meth$Download__O()
+});
+$c_LMain$.prototype.sendMessageToSW = (function(arg$1) {
+  var prep0 = $as_T(arg$1);
+  return this.$$js$exported$meth$sendMessageToSW__T__O(prep0)
 });
 $c_LMain$.prototype.featuredQuote = (function() {
   return this.$$js$exported$meth$featuredQuote__O()
@@ -8733,6 +8789,9 @@ $c_s_concurrent_impl_Promise$DefaultPromise.prototype.root__p2__s_concurrent_imp
     }
   }
 });
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.onComplete__F1__s_concurrent_ExecutionContext__V = (function(func, executor) {
+  this.dispatchOrAddCallback__p2__s_concurrent_impl_CallbackRunnable__V(new $c_s_concurrent_impl_CallbackRunnable().init___s_concurrent_ExecutionContext__F1(executor, func))
+});
 $c_s_concurrent_impl_Promise$DefaultPromise.prototype.tryCompleteAndGetListeners__p2__s_util_Try__sci_List = (function(v) {
   var _$this = this;
   _tryCompleteAndGetListeners: while (true) {
@@ -8752,9 +8811,6 @@ $c_s_concurrent_impl_Promise$DefaultPromise.prototype.tryCompleteAndGetListeners
       return null
     }
   }
-});
-$c_s_concurrent_impl_Promise$DefaultPromise.prototype.onComplete__F1__s_concurrent_ExecutionContext__V = (function(func, executor) {
-  this.dispatchOrAddCallback__p2__s_concurrent_impl_CallbackRunnable__V(new $c_s_concurrent_impl_CallbackRunnable().init___s_concurrent_ExecutionContext__F1(executor, func))
 });
 $c_s_concurrent_impl_Promise$DefaultPromise.prototype.value0__p2__s_Option = (function() {
   var _$this = this;
@@ -9794,13 +9850,13 @@ $c_sci_StringOps.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuil
 $c_sci_StringOps.prototype.repr__O = (function() {
   return this.repr$1
 });
-$c_sci_StringOps.prototype.init___T = (function(repr) {
-  this.repr$1 = repr;
-  return this
-});
 $c_sci_StringOps.prototype.hashCode__I = (function() {
   var $$this = this.repr$1;
   return $m_sjsr_RuntimeString$().hashCode__T__I($$this)
+});
+$c_sci_StringOps.prototype.init___T = (function(repr) {
+  this.repr$1 = repr;
+  return this
 });
 $c_sci_StringOps.prototype.stringPrefix__T = (function() {
   return $f_sc_TraversableLike__stringPrefix__T(this)
@@ -9989,9 +10045,6 @@ $c_sci_List.prototype.foreach__F1__V = (function(f) {
     these = this$1.tail__sci_List()
   }
 });
-$c_sci_List.prototype.iterator__sc_Iterator = (function() {
-  return new $c_sc_LinearSeqLike$$anon$1().init___sc_LinearSeqLike(this)
-});
 $c_sci_List.prototype.drop__I__sci_List = (function(n) {
   var these = this;
   var count = n;
@@ -10002,11 +10055,14 @@ $c_sci_List.prototype.drop__I__sci_List = (function(n) {
   };
   return these
 });
-$c_sci_List.prototype.length__I = (function() {
-  return $f_sc_LinearSeqOptimized__length__I(this)
+$c_sci_List.prototype.iterator__sc_Iterator = (function() {
+  return new $c_sc_LinearSeqLike$$anon$1().init___sc_LinearSeqLike(this)
 });
 $c_sci_List.prototype.seq__sc_Seq = (function() {
   return this
+});
+$c_sci_List.prototype.length__I = (function() {
+  return $f_sc_LinearSeqOptimized__length__I(this)
 });
 $c_sci_List.prototype.hashCode__I = (function() {
   return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)
@@ -10290,23 +10346,23 @@ function $h_sci_Nil$() {
   /*<skip>*/
 }
 $h_sci_Nil$.prototype = $c_sci_Nil$.prototype;
-$c_sci_Nil$.prototype.init___ = (function() {
-  return this
+$c_sci_Nil$.prototype.productPrefix__T = (function() {
+  return "Nil"
 });
 $c_sci_Nil$.prototype.head__O = (function() {
   this.head__sr_Nothing$()
 });
-$c_sci_Nil$.prototype.productPrefix__T = (function() {
-  return "Nil"
+$c_sci_Nil$.prototype.init___ = (function() {
+  return this
 });
 $c_sci_Nil$.prototype.productArity__I = (function() {
   return 0
 });
-$c_sci_Nil$.prototype.tail__sci_List = (function() {
-  throw new $c_jl_UnsupportedOperationException().init___T("tail of empty list")
-});
 $c_sci_Nil$.prototype.isEmpty__Z = (function() {
   return true
+});
+$c_sci_Nil$.prototype.tail__sci_List = (function() {
+  throw new $c_jl_UnsupportedOperationException().init___T("tail of empty list")
 });
 $c_sci_Nil$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
@@ -10566,13 +10622,13 @@ $c_scm_StringBuilder.prototype.toString__T = (function() {
 $c_scm_StringBuilder.prototype.foreach__F1__V = (function(f) {
   $f_sc_IndexedSeqOptimized__foreach__F1__V(this, f)
 });
-$c_scm_StringBuilder.prototype.iterator__sc_Iterator = (function() {
-  return new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(this, 0, this.underlying$5.length__I())
-});
 $c_scm_StringBuilder.prototype.append__T__scm_StringBuilder = (function(s) {
   var this$1 = this.underlying$5;
   this$1.java$lang$StringBuilder$$content$f = (("" + this$1.java$lang$StringBuilder$$content$f) + s);
   return this
+});
+$c_scm_StringBuilder.prototype.iterator__sc_Iterator = (function() {
+  return new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(this, 0, this.underlying$5.length__I())
 });
 $c_scm_StringBuilder.prototype.init___I__T = (function(initCapacity, initValue) {
   var this$2 = new $c_jl_StringBuilder().init___I((($uI(initValue.length) + initCapacity) | 0));
@@ -10679,11 +10735,11 @@ $c_sjs_js_WrappedArray.prototype.foreach__F1__V = (function(f) {
 $c_sjs_js_WrappedArray.prototype.iterator__sc_Iterator = (function() {
   return new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(this, 0, $uI(this.array$6.length))
 });
-$c_sjs_js_WrappedArray.prototype.length__I = (function() {
-  return $uI(this.array$6.length)
-});
 $c_sjs_js_WrappedArray.prototype.seq__sc_Seq = (function() {
   return this
+});
+$c_sjs_js_WrappedArray.prototype.length__I = (function() {
+  return $uI(this.array$6.length)
 });
 $c_sjs_js_WrappedArray.prototype.hashCode__I = (function() {
   return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)
@@ -10751,7 +10807,7 @@ var $d_sjs_js_WrappedArray = new $TypeData().initClass({
   scm_Builder: 1
 });
 $c_sjs_js_WrappedArray.prototype.$classData = $d_sjs_js_WrappedArray;
-$e.myobject = $m_LMain$();
+$e.MyMain = $m_LMain$();
 $m_LMain$().main__AT__V($makeNativeArrayWrapper($d_T.getArrayOf(), []));
 }).call(this);
 //# sourceMappingURL=client-fastopt.js.map

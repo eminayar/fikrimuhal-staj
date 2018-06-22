@@ -1,13 +1,14 @@
 import org.scalajs.dom
-import org.scalajs.dom.raw.{MessageEvent, Worker, WorkerGlobalScope}
+import org.scalajs.dom._
+import org.scalajs.dom.raw.{MessageChannel, MessageEvent, Worker, WorkerGlobalScope}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.scalajs.js
-import js.Dynamic.{global => g }
+import js.Dynamic.{global => g}
 import scala.scalajs.js.annotation.{JSExport, JSExportTopLevel}
 import util._
 
-@JSExportTopLevel("myobject")
+@JSExportTopLevel("MyMain")
 object Main extends App{
 
   import dom.ext.Ajax
@@ -102,6 +103,32 @@ object Main extends App{
   }else{
     dom.console.log("registration failed!")
   }
+
+  if ( !js.isUndefined(g.navigator.serviceWorker ) ) {
+    g.navigator.serviceWorker.addEventListener("message" , (event: MessageEvent) => {
+      dom.console.log(event.data.toString)
+    })
+  }
+
+  @JSExport
+  def sendMessageToSW(message: String): Unit ={
+    g.navigator.serviceWorker.controller.postMessage("Client says '"+message+"'")
+  }
+
+  @JSExport
+  def Download(): Unit ={
+    val messageChannel = new MessageChannel()
+    messageChannel.port1.onmessage = event =>{
+      dom.console.log("message from SW "+event.toString)
+    }
+    g.navigator.serviceWorker.controller.postMessage( "hello!" , js.Array(messageChannel.port2) )
+  }
+
+  val pre = dom.document.createElement("pre")
+  dom.document.body.appendChild(pre)
+  val downloadButton = dom.document.createElement("BUTTON" )
+  downloadButton.id="downloadButton"
+
 }
 
 
