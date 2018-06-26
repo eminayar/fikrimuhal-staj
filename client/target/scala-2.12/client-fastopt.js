@@ -4129,20 +4129,42 @@ $c_LMain$.prototype.init___ = (function() {
 $c_LMain$.prototype.$$js$exported$meth$ping__O = (function() {
   this.ping__V()
 });
-$c_LMain$.prototype.Main$$$anonfun$Download$1__Lorg_scalajs_dom_raw_MessageEvent__V = (function(event) {
-  var jsx$1 = $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console();
-  var s = ("message from SW " + $objectToString(event));
-  jsx$1.log(s)
-});
-$c_LMain$.prototype.$$js$exported$meth$sendMessageToSW__T__O = (function(message) {
-  this.sendMessageToSW__T__V(message)
-});
 $c_LMain$.prototype.Download__V = (function() {
-  var messageChannel = new $g.MessageChannel();
-  messageChannel.port1.onmessage = (function(arg1$2) {
-    $m_LMain$().Main$$$anonfun$Download$1__Lorg_scalajs_dom_raw_MessageEvent__V(arg1$2)
-  });
-  $g.navigator.serviceWorker.controller.postMessage("hello!", [messageChannel.port2])
+  var jsx$1 = $g;
+  var array = ["http://127.0.0.1:8080/test.txt"];
+  var a = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array)).s__sc_Seq__T($m_sci_Nil$());
+  var f = jsx$1.fetch(a);
+  $m_sjs_js_Thenable$ThenableOps$().toFuture$extension__sjs_js_Thenable__s_concurrent_Future(f).onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(resp$2) {
+      var resp = $as_s_util_Try(resp$2);
+      var reader = resp.get__O().body.getReader();
+      var jsx$2 = $m_sjs_js_Thenable$ThenableOps$();
+      var p = reader.read();
+      jsx$2.toFuture$extension__sjs_js_Thenable__s_concurrent_Future(p).onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1) {
+        return (function(chunk$2) {
+          var chunk = $as_s_util_Try(chunk$2);
+          var jsx$3 = $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console();
+          var s = ("value: " + chunk.get__O().value);
+          jsx$3.log(s);
+          var jsx$4 = $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console();
+          var s$1 = ("done: " + $uZ(chunk.get__O().done));
+          jsx$4.log(s$1)
+        })
+      })($this)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext())
+    })
+  })(this)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext());
+  $m_sjs_js_Thenable$ThenableOps$().toFuture$extension__sjs_js_Thenable__s_concurrent_Future(f).onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
+    return (function(x0$8$2) {
+      var x0$8 = $as_s_util_Try(x0$8$2);
+      if ($is_s_util_Success(x0$8)) {
+        var x2 = $as_s_util_Success(x0$8);
+        var response = x2.value$2;
+        response.body.getReader()
+      } else if ((!$is_s_util_Failure(x0$8))) {
+        throw new $c_s_MatchError().init___O(x0$8)
+      }
+    })
+  })(this)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext())
 });
 $c_LMain$.prototype.featuredQuote__V = (function() {
   var this$5 = $m_Lorg_scalajs_dom_ext_Ajax$();
@@ -4212,11 +4234,6 @@ $c_LMain$.prototype.Main$$$anonfun$new$1__Lorg_scalajs_dom_raw_Event__s_concurre
 });
 $c_LMain$.prototype.$$js$exported$meth$featuredQuote__O = (function() {
   this.featuredQuote__V()
-});
-$c_LMain$.prototype.sendMessageToSW__T__V = (function(message) {
-  var jsx$1 = $g.navigator.serviceWorker.controller;
-  var s = (("Client says '" + message) + "'");
-  jsx$1.postMessage(s)
 });
 $c_LMain$.prototype.$$js$exported$meth$eraseQuote__I__O = (function(id) {
   this.eraseQuote__I__V(id)
@@ -4390,16 +4407,13 @@ $c_LMain$.prototype.delayedEndpoint$Main$1__V = (function() {
     })(this))
   };
   this.pre$1 = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().createElement("pre");
+  this.pre$1.id = "pre";
   $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().body.appendChild(this.pre$1);
   this.downloadButton$1 = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().createElement("BUTTON");
   this.downloadButton$1.id = "downloadButton"
 });
 $c_LMain$.prototype.Download = (function() {
   return this.$$js$exported$meth$Download__O()
-});
-$c_LMain$.prototype.sendMessageToSW = (function(arg$1) {
-  var prep0 = $as_T(arg$1);
-  return this.$$js$exported$meth$sendMessageToSW__T__O(prep0)
 });
 $c_LMain$.prototype.featuredQuote = (function() {
   return this.$$js$exported$meth$featuredQuote__O()
@@ -8038,6 +8052,9 @@ $c_s_util_Failure.prototype.productArity__I = (function() {
 $c_s_util_Failure.prototype.map__F1__s_util_Try = (function(f) {
   return this
 });
+$c_s_util_Failure.prototype.get__O = (function() {
+  throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(this.exception$2)
+});
 $c_s_util_Failure.prototype.productElement__I__O = (function(x$1) {
   switch (x$1) {
     case 0: {
@@ -8121,6 +8138,9 @@ $c_s_util_Success.prototype.map__F1__s_util_Try = (function(f) {
       throw e
     }
   }
+});
+$c_s_util_Success.prototype.get__O = (function() {
+  return this.value$2
 });
 $c_s_util_Success.prototype.productElement__I__O = (function(x$1) {
   switch (x$1) {
@@ -9850,13 +9870,13 @@ $c_sci_StringOps.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuil
 $c_sci_StringOps.prototype.repr__O = (function() {
   return this.repr$1
 });
-$c_sci_StringOps.prototype.hashCode__I = (function() {
-  var $$this = this.repr$1;
-  return $m_sjsr_RuntimeString$().hashCode__T__I($$this)
-});
 $c_sci_StringOps.prototype.init___T = (function(repr) {
   this.repr$1 = repr;
   return this
+});
+$c_sci_StringOps.prototype.hashCode__I = (function() {
+  var $$this = this.repr$1;
+  return $m_sjsr_RuntimeString$().hashCode__T__I($$this)
 });
 $c_sci_StringOps.prototype.stringPrefix__T = (function() {
   return $f_sc_TraversableLike__stringPrefix__T(this)
@@ -10045,6 +10065,9 @@ $c_sci_List.prototype.foreach__F1__V = (function(f) {
     these = this$1.tail__sci_List()
   }
 });
+$c_sci_List.prototype.iterator__sc_Iterator = (function() {
+  return new $c_sc_LinearSeqLike$$anon$1().init___sc_LinearSeqLike(this)
+});
 $c_sci_List.prototype.drop__I__sci_List = (function(n) {
   var these = this;
   var count = n;
@@ -10055,14 +10078,11 @@ $c_sci_List.prototype.drop__I__sci_List = (function(n) {
   };
   return these
 });
-$c_sci_List.prototype.iterator__sc_Iterator = (function() {
-  return new $c_sc_LinearSeqLike$$anon$1().init___sc_LinearSeqLike(this)
+$c_sci_List.prototype.length__I = (function() {
+  return $f_sc_LinearSeqOptimized__length__I(this)
 });
 $c_sci_List.prototype.seq__sc_Seq = (function() {
   return this
-});
-$c_sci_List.prototype.length__I = (function() {
-  return $f_sc_LinearSeqOptimized__length__I(this)
 });
 $c_sci_List.prototype.hashCode__I = (function() {
   return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)
@@ -10346,23 +10366,23 @@ function $h_sci_Nil$() {
   /*<skip>*/
 }
 $h_sci_Nil$.prototype = $c_sci_Nil$.prototype;
-$c_sci_Nil$.prototype.productPrefix__T = (function() {
-  return "Nil"
+$c_sci_Nil$.prototype.init___ = (function() {
+  return this
 });
 $c_sci_Nil$.prototype.head__O = (function() {
   this.head__sr_Nothing$()
 });
-$c_sci_Nil$.prototype.init___ = (function() {
-  return this
+$c_sci_Nil$.prototype.productPrefix__T = (function() {
+  return "Nil"
 });
 $c_sci_Nil$.prototype.productArity__I = (function() {
   return 0
 });
-$c_sci_Nil$.prototype.isEmpty__Z = (function() {
-  return true
-});
 $c_sci_Nil$.prototype.tail__sci_List = (function() {
   throw new $c_jl_UnsupportedOperationException().init___T("tail of empty list")
+});
+$c_sci_Nil$.prototype.isEmpty__Z = (function() {
+  return true
 });
 $c_sci_Nil$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
@@ -10622,13 +10642,13 @@ $c_scm_StringBuilder.prototype.toString__T = (function() {
 $c_scm_StringBuilder.prototype.foreach__F1__V = (function(f) {
   $f_sc_IndexedSeqOptimized__foreach__F1__V(this, f)
 });
+$c_scm_StringBuilder.prototype.iterator__sc_Iterator = (function() {
+  return new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(this, 0, this.underlying$5.length__I())
+});
 $c_scm_StringBuilder.prototype.append__T__scm_StringBuilder = (function(s) {
   var this$1 = this.underlying$5;
   this$1.java$lang$StringBuilder$$content$f = (("" + this$1.java$lang$StringBuilder$$content$f) + s);
   return this
-});
-$c_scm_StringBuilder.prototype.iterator__sc_Iterator = (function() {
-  return new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(this, 0, this.underlying$5.length__I())
 });
 $c_scm_StringBuilder.prototype.init___I__T = (function(initCapacity, initValue) {
   var this$2 = new $c_jl_StringBuilder().init___I((($uI(initValue.length) + initCapacity) | 0));
@@ -10735,11 +10755,11 @@ $c_sjs_js_WrappedArray.prototype.foreach__F1__V = (function(f) {
 $c_sjs_js_WrappedArray.prototype.iterator__sc_Iterator = (function() {
   return new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(this, 0, $uI(this.array$6.length))
 });
-$c_sjs_js_WrappedArray.prototype.seq__sc_Seq = (function() {
-  return this
-});
 $c_sjs_js_WrappedArray.prototype.length__I = (function() {
   return $uI(this.array$6.length)
+});
+$c_sjs_js_WrappedArray.prototype.seq__sc_Seq = (function() {
+  return this
 });
 $c_sjs_js_WrappedArray.prototype.hashCode__I = (function() {
   return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)

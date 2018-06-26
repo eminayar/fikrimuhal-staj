@@ -1,16 +1,16 @@
 [0m[[0m[0minfo[0m] [0m[0mFast optimizing /Users/eminayar/Desktop/fikrimuhal-staj/client/target/scala-2.12/client-fastopt.js[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 34529 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 10142 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 46864 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 39626 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 11272 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 54124 us[0m
 [0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: false[0m
-[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 4269 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 4 methods.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 1730 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 6866 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 26230 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 2271 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: 28585 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 4053 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 15 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 8266 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 13435 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 36331 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 2227 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 38718 us[0m
 [0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 441 -- invalidated: 2[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 604 -- invalidated: 2[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 16807 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 597 -- invalidated: 8[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 24144 us[0m
 [0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 6 -- invalidated: 2 -- trees read: 2[0m

@@ -1,11 +1,14 @@
 import org.scalajs.dom
 import org.scalajs.dom._
+import org.scalajs.dom.experimental.ReadableStream
 import org.scalajs.dom.raw.{MessageChannel, MessageEvent, Worker, WorkerGlobalScope}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.scalajs.js
 import js.Dynamic.{global => g}
+import scala.concurrent.Future
 import scala.scalajs.js.annotation.{JSExport, JSExportTopLevel}
+import scala.scalajs.js.typedarray.TypedArrayBuffer
 import util._
 
 @JSExportTopLevel("MyMain")
@@ -111,20 +114,51 @@ object Main extends App{
   }
 
   @JSExport
-  def sendMessageToSW(message: String): Unit ={
-    g.navigator.serviceWorker.controller.postMessage("Client says '"+message+"'")
-  }
-
-  @JSExport
   def Download(): Unit ={
-    val messageChannel = new MessageChannel()
-    messageChannel.port1.onmessage = event =>{
-      dom.console.log("message from SW "+event.toString)
+    val f = org.scalajs.dom.experimental.Fetch.fetch(s"http://127.0.0.1:8080/test.txt")
+    f.toFuture.onComplete { resp =>
+      var reader = resp.get.body.getReader()
+      reader.read().toFuture.onComplete { chunk =>
+        console.log("value: "+ chunk.get.value)
+        console.log("done: "+ chunk.get.done)
+      }
     }
-    g.navigator.serviceWorker.controller.postMessage( "hello!" , js.Array(messageChannel.port2) )
+//    f.asInstanceOf[Future[ReadableStream[js.Any]]].onComplete( stream =>
+//      stream.map( rstream =>
+//        rstream.getReader().read().toFuture map( e =>
+//          dom.console.log(e.value)
+//        )
+//      )
+//    )
+//    f.onComplete {
+//      case Success(xhr) =>
+//        var textBox = dom.document.getElementById("pre")
+//        textBox.textContent=xhr.responseText
+//        var result = ""
+//        val reader=xh
+//        dom.console.log(reader)
+//        var flag=true
+//        while(flag) {
+//          reader.read().toFuture map{ chunk =>
+//            flag=chunk.done
+//            result+=chunk.value
+//          }
+//        }
+//        dom.console.log(result)
+//      case Failure(e) =>
+//        dom.console.log("Download failed!")
+//    }
+    f.toFuture.onComplete {
+      case Success(response) =>
+        val reader=response.body.getReader()
+
+      case Failure(e) =>
+
+    }
   }
 
   val pre = dom.document.createElement("pre")
+  pre.id="pre"
   dom.document.body.appendChild(pre)
   val downloadButton = dom.document.createElement("BUTTON" )
   downloadButton.id="downloadButton"
