@@ -1,5 +1,10 @@
 import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, Props}
+import akka.cluster.ClusterEvent.{ClusterDomainEvent, InitialStateAsEvents, MemberEvent, UnreachableMember}
+import akka.cluster.{Cluster, ClusterEvent}
+import akka.management.AkkaManagement
+import akka.management.cluster.bootstrap.ClusterBootstrap
 import akka.persistence.PersistentActor
+import akka.routing.RoundRobinPool
 import com.typesafe.config.ConfigFactory
 
 
@@ -16,18 +21,17 @@ object QuoteActor {
   final case class Changed(id: Int, body: String)
   final case object FeaturedQuote
 
-  def main(args: Array[String]): ActorRef = {
-    val port = if (args.isEmpty ) "0" else args(0)
-    val config = ConfigFactory.parseString(s"""
-        akka.remote.netty.tcp.port=$port
-        akka.remote.artery.canonical.port=$port
-        akka.persistence.journal.leveldb.dir=target/journal-db/QuoteActor
-        """)
-      .withFallback(ConfigFactory.parseString(s"akka.cluster.roles = [QuoteActor]"))
+  def main(args: Array[String]): Unit = {
+    println("hello")
+    val config = ConfigFactory.parseString("""
+       akka.actor.provider = cluster
+    """).withFallback(ConfigFactory.parseString("akka.cluster.roles = [quoteActor]"))
       .withFallback(ConfigFactory.load())
-
-    val system = ActorSystem("ClusterSystem", config)
-    system.actorOf(QuoteActor.props , "QuoteActor")
+    val system = ActorSystem("clusterSystem" , config)
+    implicit val cluster = Cluster(system)
+    AkkaManagement(system).start()
+    ClusterBootstrap(system).start()
+    system.actorOf(QuoteActor.props, "quoteActor" )
   }
 
   def props: Props = Props(new QuoteActor)
@@ -49,40 +53,48 @@ final case class QuoteState( quotes: List[Quote] = Nil , idCounter: Int = 0 ){
   override def toString: String = quotes.reverse.toString
 }
 
-class QuoteActor extends PersistentActor{
+class QuoteActor extends Actor {
   import QuoteActor._
 
-  override def persistenceId: String = "quote-actor-id-1"
+//  override def persistenceId: String = "quote-actor-id-1"
+
+  val cluster=Cluster(context.system)
+
+  override def preStart(): Unit = cluster.subscribe(self , initialStateMode = InitialStateAsEvents , classOf[MemberEvent] , classOf[UnreachableMember] )
+
+  override def postStop(): Unit = cluster.unsubscribe(self)
 
   private var state = QuoteState()
   private var featuredQuote: Quote = Quote(0,"")
   private var lastQuoteTime: Long = 0
 
-  override def receiveCommand: Receive = {
+  override def receive: Receive = {
+    case message: String =>
+      println("$$$$Message recieved: "+message+" from: "+ sender() )
     case CreateQuote( body ) =>
-      persist( Created(body) ) { evt =>
-        state = state.created(body)
-        sender ! "done"
-      }
+//      persist( Created(body) ) { evt =>
+      state = state.created(body)
+      sender ! "done"
+//      }
     case GetQuotes =>
       sender ! state.quotes
     case EraseQuote( id ) =>
       if( !state.quotes.exists( q=> q.id == id ) ){
         sender ! QuoteActionPerformed(s"no such quote!")
       }else {
-        persist( Erased(id) ) { evt =>
-          state = state.erased(id)
-          sender ! QuoteActionPerformed(s"successfull")
-        }
+//        persist( Erased(id) ) { evt =>
+        state = state.erased(id)
+        sender ! QuoteActionPerformed(s"successfull")
+//        }
       }
     case ChangeQuote(id,body) =>
       if( !state.quotes.exists( q => q.id == id ) ){
         sender ! QuoteActionPerformed(s"no such quote!")
       }else{
-        persist( Changed(id,body) ){ evt =>
-          state=state.changed(id,body)
-          sender ! QuoteActionPerformed(s"OK")
-        }
+//        persist( Changed(id,body) ){ evt =>
+        state=state.changed(id,body)
+        sender ! QuoteActionPerformed(s"OK")
+//        }
       }
     case FeaturedQuote =>
       val now=System.currentTimeMillis()
@@ -95,16 +107,16 @@ class QuoteActor extends PersistentActor{
       sender ! featuredQuote
   }
 
-  override def receiveRecover: Receive = {
-    case Created(body) =>
-      println("recover created quote")
-      state=state.created(body)
-    case Erased(id) =>
-      println("recover erased quote")
-      state=state.erased(id)
-    case Changed(id,body) =>
-      println("recover changed quote")
-      state=state.changed(id,body)
-  }
+//  override def receiveRecover: Receive = {
+//    case Created(body) =>
+//      println("recover created quote")
+//      state=state.created(body)
+//    case Erased(id) =>
+//      println("recover erased quote")
+//      state=state.erased(id)
+//    case Changed(id,body) =>
+//      println("recover changed quote")
+//      state=state.changed(id,body)
+//  }
 
 }

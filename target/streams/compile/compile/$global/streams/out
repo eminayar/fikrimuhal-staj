@@ -1,25 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:107:27: not found: value quoteActor[0m
-[0m[[0m[31merror[0m] [0m[0m                if (ans) (quoteActor ? CreateQuote(quote)).mapTo[QuoteActionPerformed][0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:110:38: akka.http.scaladsl.server.Directive[quoteCreated.Out] does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m              onSuccess(quoteCreated){ report =>[0m
-[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:121:48: not found: value quoteActor[0m
-[0m[[0m[31merror[0m] [0m[0m            val quotes: Future[List[Quote]] = (quoteActor ? GetQuotes).mapTo[List[Quote]][0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/WebServer.scala:18:48: implicit ActorRefFactory required: if outside of an Actor you need an implicit ActorSystem, inside of an actor this should be the implicit ActorContext[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val materializer = ActorMaterializer()[0m
 [0m[[0m[31merror[0m] [0m[0m                                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:134:28: not found: value quoteActor[0m
-[0m[[0m[31merror[0m] [0m[0m                if( ans ) (quoteActor ? EraseQuote(id) ).mapTo[QuoteActionPerformed][0m
-[0m[[0m[31merror[0m] [0m[0m                           ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:137:37: akka.http.scaladsl.server.Directive[quoteErased.Out] does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m              onSuccess(quoteErased){ report =>[0m
-[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:151:28: not found: value quoteActor[0m
-[0m[[0m[31merror[0m] [0m[0m                if( ans ) (quoteActor ? ChangeQuote(id,quote) ).mapTo[QuoteActionPerformed][0m
-[0m[[0m[31merror[0m] [0m[0m                           ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:154:37: akka.http.scaladsl.server.Directive[quoteErased.Out] does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m              onSuccess(quoteErased){ report =>[0m
-[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:165:41: not found: value quoteActor[0m
-[0m[[0m[31merror[0m] [0m[0m            val quote: Future[Quote] = (quoteActor ? FeaturedQuote).mapTo[Quote][0m
-[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/WebServer.scala:29:27: could not find implicit value for parameter system: akka.actor.ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m  val bindingFuture = Http().bindAndHandle(routes, "0.0.0.0", 8080)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

@@ -1,12 +1,16 @@
 import akka.actor._
 import java.time.Instant
 
-import akka.cluster.ClusterEvent.MemberUp
-import akka.cluster.{Cluster, Member}
+import akka.cluster.ClusterEvent._
+import akka.cluster.{Cluster, ClusterEvent, Member}
+import akka.management.AkkaManagement
+import akka.management.cluster.bootstrap.ClusterBootstrap
 import akka.persistence._
 import akka.persistence.journal._
 import akka.persistence.snapshot._
 import akka.persistence.{Persistence, PersistentActor}
+import akka.routing.RoundRobinPool
+import akka.stream.ActorMaterializer
 import com.typesafe.config.ConfigFactory
 import pdi.jwt.{JwtAlgorithm, JwtCirce, JwtClaim}
 
@@ -20,18 +24,17 @@ final case class UserState(users: List[User] = Nil ){
 
 object UserActor{
 
-  def main(args: Array[String] ): ActorRef ={
-    val port = if (args.isEmpty ) "0" else args(0)
-    val config = ConfigFactory.parseString(s"""
-        akka.remote.netty.tcp.port=$port
-        akka.remote.artery.canonical.port=$port
-        akka.persistence.journal.leveldb.dir=target/journal-db/UserActor
-        """)
-      .withFallback(ConfigFactory.parseString(s"akka.cluster.roles = [UserActor]"))
+  def main(args: Array[String] ): Unit ={
+    println("hello v:1.0")
+    val config = ConfigFactory.parseString("""
+       akka.actor.provider = cluster
+    """).withFallback(ConfigFactory.parseString("akka.cluster.roles = [userActor]"))
       .withFallback(ConfigFactory.load())
-
-    val system = ActorSystem("ClusterSystem", config)
-    system.actorOf(UserActor.props(args(0)) , "UserActor" )
+    val system = ActorSystem("clusterSystem" , config)
+    implicit val cluster = Cluster(system)
+    AkkaManagement(system).start()
+    ClusterBootstrap(system).start()
+    system.actorOf(UserActor.props, "userActor")
   }
 
   final case class CreateUser(user: User)
@@ -43,25 +46,34 @@ object UserActor{
   case object GetUsers
   case object ShutDown
 
-  def props(persistId: String): Props = Props(new UserActor(persistId))
+  def props(): Props = Props(new UserActor())
 }
 
-class UserActor(persistId: String) extends PersistentActor with ActorLogging {
+class UserActor extends Actor with ActorLogging {
   import UserActor._
-
-  override def persistenceId: String = persistId
 
   private var state = UserState()
   private var activeTokens = Set.empty[String]
   private final val secret="topsecret"
+  val cluster = Cluster(context.system)
 
-  override def receiveCommand: Receive = {
+  override def preStart(): Unit = {
+    cluster.subscribe(self , initialStateMode = InitialStateAsEvents , classOf[MemberEvent] , classOf[UnreachableMember] )
+  }
+
+  override def postStop(): Unit = cluster.unsubscribe(self)
+
+  override def receive: Receive = {
+    case MemberUp(m) =>
+      println("$$$$"+m)
+      if(m.hasRole("quoteActor") ){
+        println("$$$$found a quote actor")
+        context.actorSelection(RootActorPath(m.address) / "user" / "quoteActor") ! "INTER CLUSTER MESSAGE!"
+      }
     case CreateUser(user) =>
       println("create")
-      persist(Created(user)){ evt =>
-        state=state.created(user)
-        sender ! "Created"
-      }
+      state=state.created(user)
+      sender ! "Created"
     case GetUsers =>
       sender ! state.users
     case SaveSnapshotSuccess(metadata) =>
@@ -94,14 +106,6 @@ class UserActor(persistId: String) extends PersistentActor with ActorLogging {
         }
         sender ! activeTokens.contains(token)
       }
-  }
-
-  override def receiveRecover: Receive = {
-    case Created(user) =>
-      println("recover")
-      state=state.created(user)
-    case SnapshotOffer( metadata , offered: UserState ) =>
-      state = offered
   }
 
 }

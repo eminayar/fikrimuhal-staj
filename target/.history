@@ -29,55 +29,30 @@ exit
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
 all {file:/Users/eminayar/Desktop/fikrimuhal-staj/}fikrimuhal-staj/products {file:/Users/eminayar/Desktop/fikrimuhal-staj/}fikrimuhal-staj/test:products
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
+brew cask install minikube
+exit
+docker:publishLocal
+exit
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
+exit
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
+project quoteActor
+exit
+project quoteActor
+exit
+project quoteActor
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
+project quoteActor
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/9k/cxyrt4vs1ps986yk9hqknlvm0000gn/T/sbt-structure.xml; session clear-all
+project quoteActor
+reload
+project quoteActor
+project userActor
+project quoteActor
+project userActor
+docker:publishLocal
 compile
-run
+docker:publishLocal
 compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile 
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-eun
-run
-compile
-run
-project client
+docker:publishLocal
+project userActor

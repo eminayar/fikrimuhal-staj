@@ -4,10 +4,10 @@
 	<info
 		organisation="default"
 		module="fikrimuhal-staj$sources"
-		revision="0.1"
+		revision="1.3.3.7"
 		conf="provided"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180621135048"/>
+		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180627181854"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

@@ -11,6 +11,10 @@
             <option value="$PROJECT_DIR$/client" />
             <option value="$PROJECT_DIR$/client/project" />
             <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/quoteActor" />
+            <option value="$PROJECT_DIR$/quoteActor/project" />
+            <option value="$PROJECT_DIR$/userActor" />
+            <option value="$PROJECT_DIR$/userActor/project" />
           </set>
         </option>
         <option name="sbtVersion" value="1.1.6" />

@@ -6,6 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/client-build.iml" filepath="$PROJECT_DIR$/.idea/modules/client-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fikrimuhal-staj.iml" filepath="$PROJECT_DIR$/.idea/modules/fikrimuhal-staj.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fikrimuhal-staj-build.iml" filepath="$PROJECT_DIR$/.idea/modules/fikrimuhal-staj-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quoteActor.iml" filepath="$PROJECT_DIR$/.idea/modules/quoteActor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quoteActor-build.iml" filepath="$PROJECT_DIR$/.idea/modules/quoteActor-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/userActor.iml" filepath="$PROJECT_DIR$/.idea/modules/userActor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/userActor-build.iml" filepath="$PROJECT_DIR$/.idea/modules/userActor-build.iml" />
     </modules>
   </component>
 </project>

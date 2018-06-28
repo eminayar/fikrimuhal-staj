@@ -1,26 +1,32 @@
-import akka.actor.{Actor, ActorRef, ActorSystem, PoisonPill, RootActorPath}
+import akka.actor._
+import akka.cluster.Cluster
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Route
+import akka.management.AkkaManagement
+import akka.management.cluster.bootstrap.ClusterBootstrap
 import akka.stream.ActorMaterializer
-
+import com.typesafe.config.ConfigFactory
 import scala.io.StdIn
-
-
 
 object WebServer extends App with Routes{
 
-  implicit val system = ActorSystem("ClusterSystem")
+  val config = ConfigFactory.parseString("""
+       akka.actor.provider = cluster
+    """).withFallback(ConfigFactory.parseString("akka.cluster.roles = [server]"))
+    .withFallback(ConfigFactory.load())
+  implicit val system = ActorSystem("clusterSystem" , config)
   implicit val materializer = ActorMaterializer()
-  // needed for the future flatMap/onComplete in the end
   implicit val executionContext = system.dispatcher
+  implicit val cluster = Cluster(system)
+  AkkaManagement(system).start()
+  ClusterBootstrap(system).start()
 
-  val userActor: ActorRef = UserActor.main(Seq("2561").toArray)
-
-  val quoteActor: ActorRef = QuoteActor.main(Seq("2562").toArray)
+  val userActor: ActorRef = system.actorOf(Props[UserController])
+  val quoteActor: ActorRef = system.actorOf(Props[QuoteController])
 
   lazy val routes: Route = myRoutes
 
-  val bindingFuture = Http().bindAndHandle(routes, "localhost", 8080)
+  val bindingFuture = Http().bindAndHandle(routes, "0.0.0.0", 8080)
 
   println(s"Server online at http://localhost:8080/\nPress RETURN to stop...")
   StdIn.readLine() // let it run until user presses return

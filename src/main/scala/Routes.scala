@@ -1,5 +1,5 @@
-import UserActor._
-import QuoteActor._
+import UserController._
+import QuoteController._
 import akka.actor.{ActorRef, ActorSystem}
 import akka.event.Logging
 import akka.http.scaladsl.model._

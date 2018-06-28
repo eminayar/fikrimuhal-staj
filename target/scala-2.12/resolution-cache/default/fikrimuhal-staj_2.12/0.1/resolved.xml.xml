@@ -4,7 +4,7 @@
 		module="fikrimuhal-staj_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20180621134944"
+		publication="20180626153126"
 	>
 		<description>
 		fikrimuhal-staj
@@ -42,5 +42,7 @@
 		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-all" rev="1.8" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-cluster_2.12" rev="2.5.13" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-cluster-metrics_2.12" rev="2.5.13" conf="compile->default(compile)"/>
+		<dependency org="com.lightbend.akka.management" name="akka-management-cluster-bootstrap_2.12" rev="0.14.0" conf="compile->default(compile)"/>
+		<dependency org="com.lightbend.akka.discovery" name="akka-discovery-dns_2.12" rev="0.14.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
