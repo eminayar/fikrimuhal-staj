@@ -56,3 +56,10 @@ docker:publishLocal
 compile
 docker:publishLocal
 project userActor
+docker:publishLocal
+project userActor
+docker:publishLocal
+project userActor
+docker:publishLocal
+compile
+docker:publishLocal

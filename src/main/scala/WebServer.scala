@@ -6,6 +6,9 @@ import akka.management.AkkaManagement
 import akka.management.cluster.bootstrap.ClusterBootstrap
 import akka.stream.ActorMaterializer
 import com.typesafe.config.ConfigFactory
+
+import scala.concurrent.Await
+import scala.concurrent.duration.Duration
 import scala.io.StdIn
 
 object WebServer extends App with Routes{
@@ -26,14 +29,10 @@ object WebServer extends App with Routes{
 
   lazy val routes: Route = myRoutes
 
-  val bindingFuture = Http().bindAndHandle(routes, "0.0.0.0", 8080)
+  val bindingFuture = Http().bindAndHandle(routes, "0.0.0.0" , 8080)
 
   println(s"Server online at http://localhost:8080/\nPress RETURN to stop...")
-  StdIn.readLine() // let it run until user presses return
-  userActor ! PoisonPill
-  quoteActor ! PoisonPill
-  bindingFuture
-    .flatMap(_.unbind()) // trigger unbinding from the port
-    .onComplete(_ => system.terminate()) // and shutdown when done
+
+  Await.result(system.whenTerminated, Duration.Inf)
 
 }

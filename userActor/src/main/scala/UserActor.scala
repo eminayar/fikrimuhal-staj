@@ -2,20 +2,22 @@ import akka.actor._
 import java.time.Instant
 
 import akka.cluster.ClusterEvent._
-import akka.cluster.{Cluster, ClusterEvent, Member}
+import akka.cluster.Cluster
 import akka.management.AkkaManagement
 import akka.management.cluster.bootstrap.ClusterBootstrap
 import akka.persistence._
-import akka.persistence.journal._
-import akka.persistence.snapshot._
-import akka.persistence.{Persistence, PersistentActor}
-import akka.routing.RoundRobinPool
-import akka.stream.ActorMaterializer
 import com.typesafe.config.ConfigFactory
 import pdi.jwt.{JwtAlgorithm, JwtCirce, JwtClaim}
 
 final case class User(username: String, password: String)
-
+final case class CreateUser(user: User)
+final case class Login(user: User)
+final case class Created(user: User)
+final case class Logout(token: String)
+final case class isValidToken(token: String)
+case object UserBackendRegistration
+case object ShutDown
+case object GetUsers
 
 final case class UserState(users: List[User] = Nil ){
   def created( user:User ): UserState = copy( user :: users )
@@ -24,33 +26,24 @@ final case class UserState(users: List[User] = Nil ){
 
 object UserActor{
 
-  def main(args: Array[String] ): Unit ={
+  def main(args: Array[String] ): Unit = {
     println("hello v:1.0")
-    val config = ConfigFactory.parseString("""
+    val config = ConfigFactory.parseString(
+      """
        akka.actor.provider = cluster
     """).withFallback(ConfigFactory.parseString("akka.cluster.roles = [userActor]"))
       .withFallback(ConfigFactory.load())
-    val system = ActorSystem("clusterSystem" , config)
+    val system = ActorSystem("clusterSystem", config)
     implicit val cluster = Cluster(system)
     AkkaManagement(system).start()
     ClusterBootstrap(system).start()
     system.actorOf(UserActor.props, "userActor")
   }
 
-  final case class CreateUser(user: User)
-  final case class Login(user: User)
-  final case class Created(user: User)
-  final case class Logout(token: String)
-  final case class isValidToken(token: String)
-  case object UserBackendRegistration
-  case object GetUsers
-  case object ShutDown
-
   def props(): Props = Props(new UserActor())
 }
 
 class UserActor extends Actor with ActorLogging {
-  import UserActor._
 
   private var state = UserState()
   private var activeTokens = Set.empty[String]
@@ -75,6 +68,7 @@ class UserActor extends Actor with ActorLogging {
       state=state.created(user)
       sender ! "Created"
     case GetUsers =>
+      println("get users query from:"+sender())
       sender ! state.users
     case SaveSnapshotSuccess(metadata) =>
       println("snapshot success")

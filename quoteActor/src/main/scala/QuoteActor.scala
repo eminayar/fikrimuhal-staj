@@ -9,17 +9,17 @@ import com.typesafe.config.ConfigFactory
 
 
 final case class Quote(id: Int, body: String)
+final case class QuoteActionPerformed( description: String )
+final case class CreateQuote(body: String)
+final case class Created(body: String)
+final case object GetQuotes
+final case class EraseQuote(id: Int)
+final case class Erased(id: Int)
+final case class ChangeQuote(id: Int, body: String)
+final case class Changed(id: Int, body: String)
+final case object FeaturedQuote
 
 object QuoteActor {
-  final case class QuoteActionPerformed( description: String )
-  final case class CreateQuote(body: String)
-  final case class Created(body: String)
-  final case object GetQuotes
-  final case class EraseQuote(id: Int)
-  final case class Erased(id: Int)
-  final case class ChangeQuote(id: Int, body: String)
-  final case class Changed(id: Int, body: String)
-  final case object FeaturedQuote
 
   def main(args: Array[String]): Unit = {
     println("hello")
@@ -54,7 +54,6 @@ final case class QuoteState( quotes: List[Quote] = Nil , idCounter: Int = 0 ){
 }
 
 class QuoteActor extends Actor {
-  import QuoteActor._
 
 //  override def persistenceId: String = "quote-actor-id-1"
 

@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/WebServer.scala:18:48: implicit ActorRefFactory required: if outside of an Actor you need an implicit ActorSystem, inside of an actor this should be the implicit ActorContext[0m
-[0m[[0m[31merror[0m] [0m[0m  implicit val materializer = ActorMaterializer()[0m
-[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/WebServer.scala:29:27: could not find implicit value for parameter system: akka.actor.ActorSystem[0m
-[0m[[0m[31merror[0m] [0m[0m  val bindingFuture = Http().bindAndHandle(routes, "0.0.0.0", 8080)[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:1:8: not found: object UserController[0m
+[0m[[0m[31merror[0m] [0m[0mimport UserController._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eminayar/Desktop/fikrimuhal-staj/src/main/scala/Routes.scala:2:8: not found: object QuoteController[0m
+[0m[[0m[31merror[0m] [0m[0mimport QuoteController._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
