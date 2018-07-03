@@ -2,10 +2,303 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc14267-7928-4818-b8b8-26eebe3ef765" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/quoteActor/src/main/scala/QuoteActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/quoteActor/src/main/scala/QuoteActor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Routes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Routes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/WebServer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/WebServer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userActor/src/main/scala/UserActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/userActor/src/main/scala/UserActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/classes/JS_DEPENDENCIES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/classes/Main$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/classes/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/classes/Main$.sjsir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/classes/Main$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/classes/Main$delayedInit$body.sjsir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/client-fastopt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/client-fastopt.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/client-jsdeps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/client-jsdeps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/client-opt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/client-opt.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/client/client$sources/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/client/client$sources/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/client/client_sjs0.6_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/client/client_sjs0.6_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/org.scala-sbt.temp/temp-module-98ec89c315ed408f615fff2c4774286d17323b01/1.1.7/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/org.scala-sbt.temp/temp-module-98ec89c315ed408f615fff2c4774286d17323b01/1.1.7/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-phantom-js-jetty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client$sources-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-phantom-js-jetty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/client-client_sjs0.6_2.12-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-phantom-js-jetty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-phantom-js-jetty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.12-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/scala-js-tutorial/scala-js-tutorial$sources/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/scala-js-tutorial/scala-js-tutorial$sources/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/scala-js-tutorial/scala-js-tutorial_sjs0.6_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/resolution-cache/scala-js-tutorial/scala-js-tutorial_sjs0.6_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/scala-js-tutorial-fastopt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/scala-js-tutorial-fastopt.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/scala-js-tutorial-jsdeps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/scala-2.12/test-classes/JS_DEPENDENCIES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/$global/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/$global/$global/streams/package-min-js-deps/in-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/$global/$global/streams/package-min-js-deps/out-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/$global/$global/sjsirFilesOnClasspath/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/compile/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/fastOptJS/$global/streams/in-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/fastOptJS/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/fastOptJS/$global/streams/out-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/fullClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/fullOptJS/$global/streams/in-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/fullOptJS/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/fullOptJS/$global/streams/out-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/loadedJSEnv/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/mainClass/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/run/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/$global/$global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/compile/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/copyResources/$global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/copyResources/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/000005.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/000008.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/000033.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/000036.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/MANIFEST-000035" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/QuoteActor/000005.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/QuoteActor/000012.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/QuoteActor/000013.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/QuoteActor/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/QuoteActor/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/QuoteActor/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/QuoteActor/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/QuoteActor/MANIFEST-000011" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/UserActor/000005.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/UserActor/000008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/UserActor/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/UserActor/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/UserActor/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/UserActor/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/UserActor/MANIFEST-000007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-1/000005.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-1/000012.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-1/000015.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-1/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-1/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-1/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-1/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-1/MANIFEST-000014" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-2/000005.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-2/000008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-2/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-2/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-2/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-2/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-2/MANIFEST-000007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-3/000005.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-3/000008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-3/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-3/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-3/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-3/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journal-db/user-actor-3/MANIFEST-000007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Quote$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Quote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$importedEncoder$macro$29$1$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$importedEncoder$macro$29$1$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$importedEncoder$macro$29$1$anon$macro$27$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$importedEncoder$macro$29$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$importedEncoder$macro$39$1$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$importedEncoder$macro$39$1$$anon$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$importedEncoder$macro$39$1$anon$macro$37$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$importedEncoder$macro$39$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$lazy$macro$19$1$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$lazy$macro$19$1$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$lazy$macro$19$1$anon$macro$17$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$lazy$macro$19$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$lazy$macro$9$1$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$lazy$macro$9$1$$anon$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$lazy$macro$9$1$anon$macro$7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes$anon$lazy$macro$9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Routes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/User$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/WebServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/WebServer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/WebServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/fikrimuhal-staj_2.12-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/fikrimuhal-staj$sources/0.1/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/fikrimuhal-staj$sources/0.1/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/fikrimuhal-staj_2.12/0.1/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/fikrimuhal-staj_2.12/0.1/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj$sources-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj_2.12-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj_2.12-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj_2.12-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj_2.12-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj_2.12-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj_2.12-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj_2.12-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj_2.12-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj_2.12-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj_2.12-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-fikrimuhal-staj_2.12-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructureTo/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/exportedProductJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/mainClass/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProductJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/fullClasspathAsJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/internalDependencyAsJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/$global/$global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/loadedTestFrameworks/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -33,11 +326,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WebServer.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebServer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/WebServer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="405">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -48,7 +341,7 @@
       <file leaf-file-name="QuoteController.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/QuoteController.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="120">
               <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -69,8 +362,8 @@
       <file leaf-file-name="QuoteActor.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quoteActor/src/main/scala/QuoteActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="97" column="25" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="97" selection-end-column="25" />
+            <state relative-caret-position="15">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
               <folding>
                 <element signature="e#0#69#0" expanded="true" />
               </folding>
@@ -78,13 +371,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Routes.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Routes.scala">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-445">
-              <folding>
-                <element signature="e#1#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-637" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="akka-cluster.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kubernetes/akka-cluster.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2910">
+              <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -115,13 +413,13 @@
         <option value="$PROJECT_DIR$/userActor/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/kube-delete.sh" />
-        <option value="$PROJECT_DIR$/kubernetes/akka-cluster.yml" />
         <option value="$PROJECT_DIR$/src/main/scala/WebServer.scala" />
         <option value="$PROJECT_DIR$/userActor/src/main/scala/UserActor.scala" />
         <option value="$PROJECT_DIR$/quoteActor/src/main/scala/QuoteActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UserController.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/QuoteController.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Routes.scala" />
+        <option value="$PROJECT_DIR$/kubernetes/akka-cluster.yml" />
       </list>
     </option>
   </component>
@@ -146,8 +444,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,60 +463,6 @@
               <item name="fikrimuhal-staj" type="462c0819:PsiDirectoryNode" />
               <item name="quoteActor" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fikrimuhal-staj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fikrimuhal-staj" type="462c0819:PsiDirectoryNode" />
-              <item name="quoteActor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fikrimuhal-staj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fikrimuhal-staj" type="462c0819:PsiDirectoryNode" />
-              <item name="quoteActor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fikrimuhal-staj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fikrimuhal-staj" type="462c0819:PsiDirectoryNode" />
-              <item name="quoteActor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fikrimuhal-staj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fikrimuhal-staj" type="462c0819:PsiDirectoryNode" />
-              <item name="quoteActor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fikrimuhal-staj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fikrimuhal-staj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fikrimuhal-staj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fikrimuhal-staj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fikrimuhal-staj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fikrimuhal-staj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fikrimuhal-staj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fikrimuhal-staj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -232,9 +476,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -374,16 +618,17 @@
       <option name="presentableId" value="Default" />
       <updated>1530016222979</updated>
       <workItem from="1530016228023" duration="11333000" />
-      <workItem from="1530102370914" duration="25788000" />
+      <workItem from="1530102370914" duration="28416000" />
+      <workItem from="1530621442130" duration="9000" />
+      <workItem from="1530621491518" duration="221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37121000" />
+    <option name="totallyTimeSpent" value="39979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="8" />
       <window_info anchor="right" id="sbt" order="0" />
@@ -393,7 +638,6 @@
       <window_info anchor="right" id="CDI" order="1" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.29946524" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
@@ -416,6 +660,7 @@
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.29946524" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
     </layout>
@@ -427,6 +672,94 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/WebServer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/QuoteController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UserController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kubernetes/akka-cluster.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quoteActor/src/main/scala/QuoteActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/WebServer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/QuoteController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UserController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kubernetes/akka-cluster.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quoteActor/src/main/scala/QuoteActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -462,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,30 +883,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kubernetes/akka-cluster.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userActor/src/main/scala/UserActor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="860">
           <caret line="101" column="7" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="101" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quoteActor/src/main/scala/QuoteActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="97" column="25" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="97" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,7 +899,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/QuoteController.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="120">
           <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -597,23 +907,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Routes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <folding>
-            <element signature="e#1#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/WebServer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="405">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kubernetes/akka-cluster.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quoteActor/src/main/scala/QuoteActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-637" />
       </provider>
     </entry>
   </component>
