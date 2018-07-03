@@ -68,6 +68,7 @@ project/plugins/project/
 .history
 .cache
 .lib/
+*/target
 
 .idea/modules/quoteActor-build.iml
 .idea/modules/quoteActor.iml
