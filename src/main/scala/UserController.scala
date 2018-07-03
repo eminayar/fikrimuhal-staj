@@ -2,16 +2,6 @@ import akka.actor._
 import akka.cluster.ClusterEvent._
 import akka.cluster.Cluster
 
-
-final case class User(username: String, password: String)
-case object GetUsers
-final case class CreateUser(user: User)
-final case class Login(user: User)
-final case class Logout(token: String)
-final case class isValidToken(token: String)
-case object UserBackendRegistration
-case object ShutDown
-
 class UserController extends Actor with ActorLogging {
 
   val cluster = Cluster(context.system)

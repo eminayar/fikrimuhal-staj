@@ -22,11 +22,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: org.querki:jquery-facade_sjs0.6_2.12:1.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.webjars:jquery:2.1.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.2:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-interface_2.12:0.6.23:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-js:scalajs-library_2.12:0.6.23:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-js:scalajs-dom_sjs0.6_2.12:0.9.3:jar" level="project" />
+    <orderEntry type="module" module-name="shared" exported="" />
     <orderEntry type="library" name="sbt: org.querki:querki-jsext_sjs0.6_2.12:0.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-dom_sjs0.6_2.12:0.9.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-library_2.12:0.6.23:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-interface_2.12:0.6.23:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.webjars:jquery:2.1.4:jar" level="project" />
   </component>
 </module>

@@ -2,15 +2,6 @@ import akka.actor._
 import akka.cluster.ClusterEvent._
 import akka.cluster.Cluster
 
-
-final case class Quote(id: Int, body: String)
-final case class QuoteActionPerformed( description: String )
-final case class CreateQuote(body: String)
-final case object GetQuotes
-final case class EraseQuote(id: Int)
-final case class ChangeQuote(id: Int, body: String)
-final case object FeaturedQuote
-
 class QuoteController extends Actor {
 
   val cluster=Cluster(context.system)

@@ -3,6 +3,38 @@ import com.typesafe.sbt.packager.docker._
 name := "fikrimuhal-staj"
 scalaVersion := "2.12.6"
 
+val shared = project
+  .enablePlugins(JavaServerAppPackaging)
+  .settings(
+    name := "shared",
+    scalaVersion := "2.12.6"
+  )
+
+val client = project
+  .enablePlugins(ScalaJSPlugin)
+  .settings(
+    name := "client",
+    scalaVersion := "2.12.2",
+    scalaJSUseMainModuleInitializer := true
+  )
+  .dependsOn(shared)
+
+val quoteActor = project
+  .enablePlugins(JavaServerAppPackaging)
+  .settings(
+    name := "quoteActor",
+    scalaVersion := "2.12.6"
+  )
+  .dependsOn(shared)
+
+val userActor = project
+  .enablePlugins(JavaServerAppPackaging)
+  .settings(
+    name := "userActor",
+    scalaVersion := "2.12.6"
+  )
+  .dependsOn(shared)
+
 libraryDependencies += "com.typesafe.akka" %% "akka-stream" % "2.5.11"
 libraryDependencies += "com.typesafe.akka" %% "akka-http"   % "10.1.1"
 libraryDependencies += "io.circe" %% "circe-core" % "0.9.3"
@@ -18,6 +50,7 @@ libraryDependencies += "com.lightbend.akka.discovery" %% "akka-discovery-dns" % 
 libraryDependencies += "com.lightbend.akka.discovery" %% "akka-discovery-kubernetes-api" % "0.14.0"
 libraryDependencies += "com.lightbend.akka.management" %% "akka-management" % "0.14.0"
 enablePlugins(JavaServerAppPackaging)
+dependsOn(shared)
 
 dockerEntrypoint ++= Seq(
   """-Dakka.remote.netty.tcp.hostname="$(eval "echo $AKKA_REMOTING_BIND_HOST")"""",
@@ -32,25 +65,3 @@ dockerCommands :=
 version := "1.3.3.7"
 dockerUsername := Some("eminayar")
 dockerCommands += Cmd("USER", "root")
-
-val client = project
-  .enablePlugins(ScalaJSPlugin)
-  .settings(
-    name := "client",
-    scalaVersion := "2.12.2",
-    scalaJSUseMainModuleInitializer := true
-  )
-
-val quoteActor = project
-  .enablePlugins(JavaServerAppPackaging)
-  .settings(
-    name := "quoteActor",
-    scalaVersion := "2.12.6"
-  )
-
-val userActor = project
-  .enablePlugins(JavaServerAppPackaging)
-  .settings(
-    name := "userActor",
-    scalaVersion := "2.12.6"
-  )

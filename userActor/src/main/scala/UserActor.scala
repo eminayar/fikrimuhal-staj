@@ -9,16 +9,6 @@ import akka.persistence._
 import com.typesafe.config.ConfigFactory
 import pdi.jwt.{JwtAlgorithm, JwtCirce, JwtClaim}
 
-final case class User(username: String, password: String)
-final case class CreateUser(user: User)
-final case class Login(user: User)
-final case class Created(user: User)
-final case class Logout(token: String)
-final case class isValidToken(token: String)
-case object UserBackendRegistration
-case object ShutDown
-case object GetUsers
-
 final case class UserState(users: List[User] = Nil ){
   def created( user:User ): UserState = copy( user :: users )
   override def toString: String = users.reverse.toString

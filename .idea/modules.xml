@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fikrimuhal-staj-build.iml" filepath="$PROJECT_DIR$/.idea/modules/fikrimuhal-staj-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quoteActor.iml" filepath="$PROJECT_DIR$/.idea/modules/quoteActor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quoteActor-build.iml" filepath="$PROJECT_DIR$/.idea/modules/quoteActor-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared-build.iml" filepath="$PROJECT_DIR$/.idea/modules/shared-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/userActor.iml" filepath="$PROJECT_DIR$/.idea/modules/userActor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/userActor-build.iml" filepath="$PROJECT_DIR$/.idea/modules/userActor-build.iml" />
     </modules>

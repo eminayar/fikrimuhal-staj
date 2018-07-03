@@ -7,18 +7,6 @@ import akka.persistence.PersistentActor
 import akka.routing.RoundRobinPool
 import com.typesafe.config.ConfigFactory
 
-
-final case class Quote(id: Int, body: String)
-final case class QuoteActionPerformed( description: String )
-final case class CreateQuote(body: String)
-final case class Created(body: String)
-final case object GetQuotes
-final case class EraseQuote(id: Int)
-final case class Erased(id: Int)
-final case class ChangeQuote(id: Int, body: String)
-final case class Changed(id: Int, body: String)
-final case object FeaturedQuote
-
 object QuoteActor {
 
   def main(args: Array[String]): Unit = {
