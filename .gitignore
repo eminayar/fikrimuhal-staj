@@ -73,14 +73,6 @@ project/plugins/project/
 .idea/modules/quoteActor.iml
 .idea/modules/userActor-build.iml
 .idea/modules/userActor.iml
-client/cacheWorker.js
-client/test.txt
 kube-create.sh
 kube-delete.sh
 kubernetes/
-quoteActor/build.sbt
-quoteActor/src/main/resources/
-src/main/scala/QuoteController.scala
-src/main/scala/UserController.scala
-userActor/build.sbt
-userActor/src/main/resources/
