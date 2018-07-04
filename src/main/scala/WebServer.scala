@@ -1,5 +1,7 @@
+import SingletonExample._
 import akka.actor._
 import akka.cluster.Cluster
+import akka.cluster.singleton.{ClusterSingletonManager, ClusterSingletonManagerSettings}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Route
 import akka.management.AkkaManagement
@@ -26,6 +28,13 @@ object WebServer extends App with Routes{
 
   val userActor: ActorRef = system.actorOf(Props[UserController])
   val quoteActor: ActorRef = system.actorOf(Props[QuoteController])
+  system.actorOf(
+    ClusterSingletonManager.props(
+      singletonProps = Props(classOf[SingletonExample]),
+      terminationMessage = End,
+      settings = ClusterSingletonManagerSettings(system)),
+    name = "singleton")
+
 
   lazy val routes: Route = myRoutes
 

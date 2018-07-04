@@ -1,5 +1,7 @@
+import SingletonExample._
 import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, Props}
 import akka.cluster.ClusterEvent.{ClusterDomainEvent, InitialStateAsEvents, MemberEvent, UnreachableMember}
+import akka.cluster.singleton.{ClusterSingletonManager, ClusterSingletonManagerSettings, ClusterSingletonProxy, ClusterSingletonProxySettings}
 import akka.cluster.{Cluster, ClusterEvent}
 import akka.management.AkkaManagement
 import akka.management.cluster.bootstrap.ClusterBootstrap
@@ -20,6 +22,12 @@ object QuoteActor {
     AkkaManagement(system).start()
     ClusterBootstrap(system).start()
     system.actorOf(QuoteActor.props, "quoteActor" )
+    system.actorOf(
+      ClusterSingletonManager.props(
+        singletonProps = Props(classOf[SingletonExample]),
+        terminationMessage = End,
+        settings = ClusterSingletonManagerSettings(system)),
+      name = "singleton")
   }
 
   def props: Props = Props(new QuoteActor)
@@ -41,29 +49,38 @@ final case class QuoteState( quotes: List[Quote] = Nil , idCounter: Int = 0 ){
   override def toString: String = quotes.reverse.toString
 }
 
-class QuoteActor extends Actor {
+class QuoteActor extends Actor with ActorLogging {
 
 //  override def persistenceId: String = "quote-actor-id-1"
 
   val cluster=Cluster(context.system)
-
-  override def preStart(): Unit = cluster.subscribe(self , initialStateMode = InitialStateAsEvents , classOf[MemberEvent] , classOf[UnreachableMember] )
-
-  override def postStop(): Unit = cluster.unsubscribe(self)
-
   private var state = QuoteState()
   private var featuredQuote: Quote = Quote(0,"")
   private var lastQuoteTime: Long = 0
+  var proxy: ActorRef = _
+
+
+  override def preStart(): Unit ={
+    cluster.subscribe(self , initialStateMode = InitialStateAsEvents , classOf[MemberEvent] , classOf[UnreachableMember] )
+    proxy = context.actorOf(ClusterSingletonProxy.props(
+      settings = ClusterSingletonProxySettings(context.system),
+      singletonManagerPath = "/user/singleton"
+    ),
+      name="proxy")
+    log.info("user actor started")
+  }
+
+  override def postStop(): Unit = cluster.unsubscribe(self)
 
   override def receive: Receive = {
-    case message: String =>
-      println("$$$$Message recieved: "+message+" from: "+ sender() )
     case CreateQuote( body ) =>
 //      persist( Created(body) ) { evt =>
       state = state.created(body)
       sender ! "done"
 //      }
     case GetQuotes =>
+      log.info("sending message to singleton")
+      proxy ! "hello from quote actor"
       sender ! state.quotes
     case EraseQuote( id ) =>
       if( !state.quotes.exists( q=> q.id == id ) ){

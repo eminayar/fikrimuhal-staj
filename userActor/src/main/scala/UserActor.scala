@@ -1,8 +1,10 @@
 import akka.actor._
 import java.time.Instant
 
+import SingletonExample._
 import akka.cluster.ClusterEvent._
 import akka.cluster.Cluster
+import akka.cluster.singleton.{ClusterSingletonManager, ClusterSingletonManagerSettings, ClusterSingletonProxy, ClusterSingletonProxySettings}
 import akka.management.AkkaManagement
 import akka.management.cluster.bootstrap.ClusterBootstrap
 import akka.persistence._
@@ -28,6 +30,12 @@ object UserActor{
     AkkaManagement(system).start()
     ClusterBootstrap(system).start()
     system.actorOf(UserActor.props, "userActor")
+    system.actorOf(
+      ClusterSingletonManager.props(
+        singletonProps = Props(classOf[SingletonExample]),
+        terminationMessage = End,
+        settings = ClusterSingletonManagerSettings(system)),
+      name = "singleton")
   }
 
   def props(): Props = Props(new UserActor())
@@ -38,27 +46,29 @@ class UserActor extends Actor with ActorLogging {
   private var state = UserState()
   private var activeTokens = Set.empty[String]
   private final val secret="topsecret"
+  var proxy: ActorRef = _
   val cluster = Cluster(context.system)
 
   override def preStart(): Unit = {
     cluster.subscribe(self , initialStateMode = InitialStateAsEvents , classOf[MemberEvent] , classOf[UnreachableMember] )
+    proxy = context.actorOf(ClusterSingletonProxy.props(
+      settings = ClusterSingletonProxySettings(context.system),
+      singletonManagerPath = "/user/singleton"
+    ),
+      name="proxy")
+    log.info("user actor started")
   }
 
   override def postStop(): Unit = cluster.unsubscribe(self)
 
   override def receive: Receive = {
-    case MemberUp(m) =>
-      println("$$$$"+m)
-      if(m.hasRole("quoteActor") ){
-        println("$$$$found a quote actor")
-        context.actorSelection(RootActorPath(m.address) / "user" / "quoteActor") ! "INTER CLUSTER MESSAGE!"
-      }
     case CreateUser(user) =>
       println("create")
       state=state.created(user)
       sender ! "Created"
     case GetUsers =>
-      println("get users query from:"+sender())
+      log.info("sending message to singleton")
+      proxy ! "hello from user actor"
       sender ! state.users
     case SaveSnapshotSuccess(metadata) =>
       println("snapshot success")
