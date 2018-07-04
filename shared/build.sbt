@@ -7,3 +7,4 @@ libraryDependencies += "com.lightbend.akka.discovery" %% "akka-discovery-dns" % 
 libraryDependencies += "com.lightbend.akka.discovery" %% "akka-discovery-kubernetes-api" % "0.14.0"
 libraryDependencies += "com.lightbend.akka.management" %% "akka-management" % "0.14.0"
 libraryDependencies += "com.typesafe.akka" %% "akka-cluster-tools" % "2.5.13"
+libraryDependencies += "com.typesafe.akka" %% "akka-cluster-sharding" % "2.5.13"

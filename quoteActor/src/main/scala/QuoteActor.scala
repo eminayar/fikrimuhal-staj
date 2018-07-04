@@ -1,11 +1,13 @@
 import SingletonExample._
-import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, Props}
-import akka.cluster.ClusterEvent.{ClusterDomainEvent, InitialStateAsEvents, MemberEvent, UnreachableMember}
+import akka.actor.{Actor, ActorIdentity, ActorLogging, ActorRef, ActorSystem, Identify, Props, RootActorPath}
+import akka.cluster.ClusterEvent._
+import akka.cluster.sharding.{ClusterSharding, ClusterShardingSettings}
 import akka.cluster.singleton.{ClusterSingletonManager, ClusterSingletonManagerSettings, ClusterSingletonProxy, ClusterSingletonProxySettings}
 import akka.cluster.{Cluster, ClusterEvent}
 import akka.management.AkkaManagement
 import akka.management.cluster.bootstrap.ClusterBootstrap
 import akka.persistence.PersistentActor
+import akka.persistence.journal.leveldb.SharedLeveldbJournal
 import akka.routing.RoundRobinPool
 import com.typesafe.config.ConfigFactory
 
@@ -28,6 +30,13 @@ object QuoteActor {
         terminationMessage = End,
         settings = ClusterSingletonManagerSettings(system)),
       name = "singleton")
+    ClusterSharding(system).start(
+      typeName = "testShardRegion",
+      entityProps = Props[testActor],
+      settings = ClusterShardingSettings(system),
+      extractEntityId = testActor.idExtractor,
+      extractShardId = testActor.shardResolver
+    )
   }
 
   def props: Props = Props(new QuoteActor)
@@ -58,6 +67,7 @@ class QuoteActor extends Actor with ActorLogging {
   private var featuredQuote: Quote = Quote(0,"")
   private var lastQuoteTime: Long = 0
   var proxy: ActorRef = _
+  var region: ActorRef = _
 
 
   override def preStart(): Unit ={
@@ -67,12 +77,20 @@ class QuoteActor extends Actor with ActorLogging {
       singletonManagerPath = "/user/singleton"
     ),
       name="proxy")
-    log.info("user actor started")
+    log.info("quote actor started")
   }
 
   override def postStop(): Unit = cluster.unsubscribe(self)
 
   override def receive: Receive = {
+    case MemberUp(member) =>
+      if(member.hasRole("server") ){
+        context.actorSelection(RootActorPath(member.address) / "user" / "store" ) ! Identify(2)
+      }
+    case ActorIdentity(bruh, Some(store) ) =>
+      if(bruh.equals(2)){
+        SharedLeveldbJournal.setStore(store,context.system)
+      }
     case CreateQuote( body ) =>
 //      persist( Created(body) ) { evt =>
       state = state.created(body)
@@ -81,6 +99,11 @@ class QuoteActor extends Actor with ActorLogging {
     case GetQuotes =>
       log.info("sending message to singleton")
       proxy ! "hello from quote actor"
+      log.info("sending message to shards")
+      val shardRegion: ActorRef = ClusterSharding(context.system).shardRegion("testShardRegion")
+      (1 to 20) foreach{ id=>
+        shardRegion ! ShardMessage(id,"hello from quote actor")
+      }
       sender ! state.quotes
     case EraseQuote( id ) =>
       if( !state.quotes.exists( q=> q.id == id ) ){

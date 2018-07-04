@@ -3,10 +3,14 @@ import akka.actor._
 import akka.cluster.Cluster
 import akka.cluster.singleton.{ClusterSingletonManager, ClusterSingletonManagerSettings}
 import akka.http.scaladsl.Http
+import akka.pattern.ask
 import akka.http.scaladsl.server.Route
 import akka.management.AkkaManagement
 import akka.management.cluster.bootstrap.ClusterBootstrap
+import akka.persistence.journal.leveldb.{SharedLeveldbJournal, SharedLeveldbStore}
 import akka.stream.ActorMaterializer
+import akka.util.Timeout
+import scala.concurrent.duration._
 import com.typesafe.config.ConfigFactory
 
 import scala.concurrent.Await
@@ -26,8 +30,16 @@ object WebServer extends App with Routes{
   AkkaManagement(system).start()
   ClusterBootstrap(system).start()
 
+//  override implicit val timeout: Timeout = Timeout( 2.seconds )
+//  val f = store ? Identify(None)
+//  f foreach{
+//    case ActorIdentity(_,Some(ref) ) => SharedLeveldbJournal.setStore(ref,system)
+//    case _ => println("journal initialization failure")
+//  }
+
   val userActor: ActorRef = system.actorOf(Props[UserController])
   val quoteActor: ActorRef = system.actorOf(Props[QuoteController])
+  val store: ActorRef = system.actorOf(Props[SharedLeveldbStore],"store")
   system.actorOf(
     ClusterSingletonManager.props(
       singletonProps = Props(classOf[SingletonExample]),

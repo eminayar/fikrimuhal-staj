@@ -26,7 +26,7 @@ trait Routes {
   def userActor: ActorRef
   def quoteActor: ActorRef
 
-  implicit val timeout: Timeout= Timeout( 2.second )
+  implicit val timeout: Timeout= Timeout( 2.seconds )
 
   implicit val userDecoder: Decoder[User] = deriveDecoder
   implicit val userEncoder: Encoder[User] = deriveEncoder
