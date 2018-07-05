@@ -40,6 +40,7 @@ libraryDependencies += "io.circe" %% "circe-generic" % "0.9.3"
 libraryDependencies += "io.circe" %% "circe-parser" % "0.9.3"
 libraryDependencies += "com.pauldijou" %% "jwt-circe-legacy" % "0.16.0"
 libraryDependencies += "com.typesafe.akka" %% "akka-persistence" % "2.5.13"
+
 enablePlugins(JavaServerAppPackaging)
 dependsOn(shared)
 
@@ -55,4 +56,6 @@ dockerCommands :=
   }
 version := "1.3.3.7"
 dockerUsername := Some("eminayar")
+
+
 dockerCommands += Cmd("USER", "root")
