@@ -28,8 +28,8 @@ trait Routes {
 
   implicit val timeout: Timeout= Timeout( 2.seconds )
 
-  implicit val userDecoder: Decoder[User] = deriveDecoder
-  implicit val userEncoder: Encoder[User] = deriveEncoder
+//  implicit val userDecoder: Decoder[User] = deriveDecoder
+//  implicit val userEncoder: Encoder[User] = deriveEncoder
 
   lazy val myRoutes: Route =
     concat(

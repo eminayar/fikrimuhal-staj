@@ -87,10 +87,8 @@ class QuoteActor extends Actor with ActorLogging {
       if(member.hasRole("server") ){
         context.actorSelection(RootActorPath(member.address) / "user" / "store" ) ! Identify(2)
       }
-    case ActorIdentity(bruh, Some(store) ) =>
-      if(bruh.equals(2)){
-        SharedLeveldbJournal.setStore(store,context.system)
-      }
+    case ActorIdentity(_, Some(store) ) =>
+      SharedLeveldbJournal.setStore(store,context.system)
     case CreateQuote( body ) =>
 //      persist( Created(body) ) { evt =>
       state = state.created(body)

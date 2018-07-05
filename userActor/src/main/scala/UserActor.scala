@@ -75,10 +75,8 @@ class UserActor extends Actor with ActorLogging {
       if(member.hasRole("server") ){
         context.actorSelection(RootActorPath(member.address) / "user" / "store" ) ! Identify(1)
       }
-    case ActorIdentity(bruh, Some(store) ) =>
-      if(bruh.equals(1)) {
-        SharedLeveldbJournal.setStore(store, context.system)
-      }
+    case ActorIdentity(_, Some(store) ) =>
+      SharedLeveldbJournal.setStore(store, context.system)
     case CreateUser(user) =>
       println("create")
       state=state.created(user)
@@ -89,7 +87,7 @@ class UserActor extends Actor with ActorLogging {
       log.info("sending message to shards")
       val shardRegion: ActorRef = ClusterSharding(context.system).shardRegion("testShardRegion")
       (1 to 20) foreach{ id=>
-        shardRegion ! ShardMessage(id,"hello from user actor")
+        shardRegion ! ShardMessage(id.toLong , "hello from user actor" )
       }
       sender ! state.users
     case SaveSnapshotSuccess(metadata) =>

@@ -8,7 +8,7 @@ object testActor{
     case msg @ ShardMessage(id,_) => (id.toString,msg)
   }
   val shardResolver: ShardRegion.ExtractShardId = {
-    case ShardMessage(id,_) => math.abs(id.hashCode()%5).toString
+    case ShardMessage(id,_) => (id%5.toLong).toString
   }
 }
 

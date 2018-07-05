@@ -8,3 +8,5 @@ libraryDependencies += "com.lightbend.akka.discovery" %% "akka-discovery-kuberne
 libraryDependencies += "com.lightbend.akka.management" %% "akka-management" % "0.14.0"
 libraryDependencies += "com.typesafe.akka" %% "akka-cluster-tools" % "2.5.13"
 libraryDependencies += "com.typesafe.akka" %% "akka-cluster-sharding" % "2.5.13"
+libraryDependencies += "org.iq80.leveldb"  % "leveldb" % "0.9"
+libraryDependencies += "org.fusesource.leveldbjni" % "leveldbjni-all" % "1.8"
