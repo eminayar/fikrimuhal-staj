@@ -166,6 +166,25 @@ trait Routes {
             }
           }
         }
+      },
+      pathPrefix("count"){
+        pathEnd{
+          get{
+            println("count pls!")
+            val ans: Future[Int] = (quoteActor ? Count).mapTo[Int]
+            onSuccess(ans){ u=>
+              complete(u.toString)
+            }
+          }
+        }
+      },
+      pathPrefix("switch"){
+        pathEnd{
+          get{
+            quoteActor ! Switch
+            complete("switched")
+          }
+        }
       }
     )
 }

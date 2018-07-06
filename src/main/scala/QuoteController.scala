@@ -29,6 +29,10 @@ class QuoteController extends Actor {
       quoteAct forward ChangeQuote(id,body)
     case FeaturedQuote =>
       quoteAct forward FeaturedQuote
+    case Count =>
+      quoteAct forward Count
+    case Switch =>
+      quoteAct forward Switch
   }
 
 }

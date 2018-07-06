@@ -13,3 +13,7 @@ final case class EraseQuote(id: Int)
 final case class ChangeQuote(id: Int, body: String)
 case object FeaturedQuote
 final case class ShardMessage(id: Long, message: String)
+
+
+case object Count
+case object Switch

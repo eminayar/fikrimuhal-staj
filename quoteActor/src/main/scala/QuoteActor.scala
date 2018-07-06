@@ -1,5 +1,6 @@
 import SingletonExample._
-import akka.actor.{Actor, ActorIdentity, ActorLogging, ActorRef, ActorSystem, Identify, Props, RootActorPath}
+import akka.actor.SupervisorStrategy._
+import akka.actor.{Actor, ActorIdentity, ActorLogging, ActorRef, ActorSystem, Identify, OneForOneStrategy, Props, RootActorPath}
 import akka.cluster.ClusterEvent._
 import akka.cluster.sharding.{ClusterSharding, ClusterShardingSettings}
 import akka.cluster.singleton.{ClusterSingletonManager, ClusterSingletonManagerSettings, ClusterSingletonProxy, ClusterSingletonProxySettings}
@@ -9,6 +10,8 @@ import akka.management.cluster.bootstrap.ClusterBootstrap
 import akka.persistence.PersistentActor
 import akka.persistence.journal.leveldb.SharedLeveldbJournal
 import akka.routing.RoundRobinPool
+
+import scala.concurrent.duration._
 import com.typesafe.config.ConfigFactory
 
 object QuoteActor {
@@ -68,7 +71,15 @@ class QuoteActor extends Actor with ActorLogging {
   private var lastQuoteTime: Long = 0
   var proxy: ActorRef = _
   var region: ActorRef = _
+  var counter: ActorRef = _
 
+  override val supervisorStrategy = OneForOneStrategy(maxNrOfRetries = 10, withinTimeRange = 1.minute){
+    case _: ResumeException => Resume
+    case _: RestartException => Restart
+    case _: StopException => Stop
+    case _: EscalateException => Escalate
+    case _: Exception => Escalate
+  }
 
   override def preStart(): Unit ={
     cluster.subscribe(self , initialStateMode = InitialStateAsEvents , classOf[MemberEvent] , classOf[UnreachableMember] )
@@ -78,6 +89,7 @@ class QuoteActor extends Actor with ActorLogging {
     ),
       name="proxy")
     log.info("quote actor started")
+    counter = context.actorOf(Props[CounterActor],"counter")
   }
 
   override def postStop(): Unit = cluster.unsubscribe(self)
@@ -94,6 +106,11 @@ class QuoteActor extends Actor with ActorLogging {
       state = state.created(body)
       sender ! "done"
 //      }
+    case Count =>
+      log.info("count")
+      counter forward Count
+    case Switch =>
+      counter forward Switch
     case GetQuotes =>
       log.info("sending message to singleton")
       proxy ! "hello from quote actor"
